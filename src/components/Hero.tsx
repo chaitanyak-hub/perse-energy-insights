@@ -45,7 +45,7 @@ export const Hero = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">Cost Reduction</div>
-                  <div className="text-sm text-gray-600">Optimize spending</div>
+                  <div className="text-sm text-gray-600">Optimise spending</div>
                 </div>
               </div>
               

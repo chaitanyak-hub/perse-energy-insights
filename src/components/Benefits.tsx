@@ -11,7 +11,7 @@ export const Benefits = () => {
     {
       icon: BarChart3,
       title: "Comprehensive Data Access",
-      description: "Access smart meter data, historical reports, and detailed insights all in one centralized platform."
+      description: "Access smart meter data, historical reports, and detailed insights all in one centralised platform."
     },
     {
       icon: Users,
@@ -21,7 +21,7 @@ export const Benefits = () => {
     {
       icon: TrendingUp,
       title: "Improved Decision-Making",
-      description: "Granular consumption data helps identify inefficiencies and optimize energy use for better business outcomes."
+      description: "Granular consumption data helps identify inefficiencies and optimise energy use for better business outcomes."
     },
     {
       icon: Shield,
@@ -31,7 +31,7 @@ export const Benefits = () => {
     {
       icon: Zap,
       title: "Cost Efficiency",
-      description: "Reduce operational costs through automation and optimize energy usage for long-term savings."
+      description: "Reduce operational costs through automation and optimise energy usage for long-term savings."
     }
   ];
 
@@ -62,7 +62,7 @@ export const Benefits = () => {
         <div className="mt-16 bg-gradient-to-r from-emerald-500 to-blue-600 rounded-2xl p-8 text-center text-white">
           <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Energy Management?</h3>
           <p className="text-xl mb-6 opacity-90">
-            Join over 1 million customers who have optimized their energy consumption with Perse.
+            Join over 1 million customers who have optimised their energy consumption with Perse.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-emerald-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">

@@ -32,7 +32,7 @@ export const ProductShowcase = () => {
     },
     {
       title: "Switching",
-      description: "Personalized energy price comparison and seamless switching for both domestic and business customers.",
+      description: "Personalised energy price comparison and seamless switching for both domestic and business customers.",
       icon: RefreshCw,
       features: [
         "Whole market comparison",
@@ -66,7 +66,7 @@ export const ProductShowcase = () => {
             Comprehensive Energy Solutions
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our integrated platform provides everything you need to optimize energy consumption, 
+            Our integrated platform provides everything you need to optimise energy consumption, 
             reduce costs, and achieve your sustainability goals.
           </p>
         </div>
