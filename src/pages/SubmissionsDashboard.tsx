@@ -9,38 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Search, Calendar, User, Mail, FileText, Paperclip } from "lucide-react";
 
 // Mock data - in a real app, this would come from your backend
-const mockSubmissions = [
-  {
-    id: 1,
-    name: "Sarah Johnson",
-    email: "sarah.j@example.com",
-    sections: "Testimonials, Case Studies, Blog section",
-    content: "I think the website would benefit from customer testimonials and detailed case studies showcasing successful implementations. Also, a blog section would help with SEO and thought leadership.",
-    attachments: ["testimonials-mockup.pdf", "case-study-template.docx"],
-    submittedAt: "2024-01-15T10:30:00Z",
-    status: "pending"
-  },
-  {
-    id: 2,
-    name: "Michael Chen",
-    email: "m.chen@company.com",
-    sections: "Pricing page, FAQ section",
-    content: "The website needs a clear pricing structure page with different tiers. Also, an FAQ section would help reduce support queries. I've attached some competitor examples for reference.",
-    attachments: ["pricing-examples.pdf"],
-    submittedAt: "2024-01-14T14:20:00Z",
-    status: "reviewed"
-  },
-  {
-    id: 3,
-    name: "Emma Williams",
-    email: "emma.w@startup.io",
-    sections: "Integration guides, API documentation",
-    content: "Technical documentation is crucial. We need detailed integration guides and comprehensive API documentation with code examples in multiple programming languages.",
-    attachments: ["api-structure.json", "integration-flow.png"],
-    submittedAt: "2024-01-13T09:15:00Z",
-    status: "implemented"
-  }
-];
+const mockSubmissions: any[] = [];
 
 const SubmissionsDashboard = () => {
   const [submissions] = useState(mockSubmissions);
