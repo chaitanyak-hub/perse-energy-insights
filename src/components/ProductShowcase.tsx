@@ -24,7 +24,7 @@ export const ProductShowcase = () => {
       features: [
         "Whole market comparison",
         "Automated switching",
-        "Cost optimization",
+        "Cost optimisation",
         "Contract management",
         "Multi-site portfolios"
       ],
@@ -71,7 +71,7 @@ export const ProductShowcase = () => {
     },
     {
       title: "Grid Intelligence",
-      description: "Grid data, pricing signals and market intelligence for energy optimization",
+      description: "Grid data, pricing signals and market intelligence for energy optimisation",
       icon: RefreshCw,
       features: [
         "Grid balancing services",
@@ -93,7 +93,7 @@ export const ProductShowcase = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Comprehensive energy data solutions covering gas, electricity, carbon emissions, 
-            building fabric, weather intelligence and grid optimization for net zero transformation.
+            building fabric, weather intelligence and grid optimisation for net zero transformation.
           </p>
         </div>
 
