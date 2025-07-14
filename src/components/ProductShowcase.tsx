@@ -71,7 +71,8 @@ export const ProductShowcase = () => {
         "Revenue generation",
         "Automated participation"
       ],
-      gradient: "from-purple-500 to-purple-600"
+      gradient: "from-purple-500 to-purple-600",
+      image: "/lovable-uploads/19d92a18-535f-4f15-ac26-ceb05d7bd5af.png"
     },
     {
       title: "ConsentWallet",
