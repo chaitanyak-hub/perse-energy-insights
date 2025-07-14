@@ -101,11 +101,6 @@ const Sectors = () => {
     }
   ];
 
-  const stats = [
-    { icon: TrendingUp, value: "40%", label: "Average cost reduction", color: "text-emerald-600" },
-    { icon: Shield, value: "100%", label: "Compliance guarantee", color: "text-blue-600" },
-    { icon: Database, value: "1000+", label: "Data sources integrated", color: "text-purple-600" },
-  ];
 
   return (
     <div className="min-h-screen bg-white">
@@ -136,24 +131,6 @@ const Sectors = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-3 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="flex justify-center mb-4">
-                  <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center">
-                    <stat.icon className={`h-8 w-8 ${stat.color}`} />
-                  </div>
-                </div>
-                <div className="text-4xl font-bold text-gray-900 mb-2">{stat.value}</div>
-                <div className="text-gray-600">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Detailed Sectors */}
       <section className="py-20 bg-gray-50">
