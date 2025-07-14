@@ -15,10 +15,11 @@ export const Header = () => {
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-600 hover:text-gray-900 transition-colors">About</Link>
+            <Link to="/" className="text-gray-600 hover:text-gray-900 transition-colors">Home</Link>
             <Link to="/products" className="text-gray-600 hover:text-gray-900 transition-colors">Products</Link>
             <Link to="/benefits" className="text-gray-600 hover:text-gray-900 transition-colors">Benefits</Link>
             <Link to="/sectors" className="text-gray-600 hover:text-gray-900 transition-colors">Sectors</Link>
+            <Link to="/about" className="text-gray-600 hover:text-gray-900 transition-colors">About</Link>
           </nav>
           
           <div className="flex items-center space-x-4">
