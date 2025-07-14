@@ -118,7 +118,7 @@ const About = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Jane Lucy</h3>
               <p className="text-lg text-emerald-600 font-semibold mb-3">CEO & Co-Founder</p>
               <p className="text-gray-600 leading-relaxed">
-                Visionary leader driving Perse.io's mission to democratise energy data access 
+                Visionary leader driving Perse's mission to democratise energy data access 
                 and empower sustainable business decisions across industries.
               </p>
             </div>
@@ -128,7 +128,7 @@ const About = () => {
               <p className="text-lg text-blue-600 font-semibold mb-3">Chief Strategy Officer & Co-Founder</p>
               <p className="text-gray-600 leading-relaxed">
                 Strategic mastermind shaping market positioning and growth initiatives, 
-                ensuring Perse.io remains at the forefront of energy innovation.
+                ensuring Perse remains at the forefront of energy innovation.
               </p>
             </div>
             
