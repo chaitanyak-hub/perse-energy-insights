@@ -18,7 +18,33 @@ export const ProductShowcase = () => {
       gradient: "from-blue-500 to-blue-600"
     },
     {
-      title: "Energy Procurement",
+      title: "Appstore",
+      description: "A user interface to access data otherwise only available via API",
+      icon: Building,
+      features: [
+        "User-friendly interface",
+        "Data visualisation",
+        "Dashboard access",
+        "No-code solutions",
+        "Pre-built applications"
+      ],
+      gradient: "from-emerald-500 to-emerald-600"
+    },
+    {
+      title: "Optimise",
+      description: "Instantly personalised low carbon recommendations, including solar PV and heat pumps, without the need for a site visit",
+      icon: Lightbulb,
+      features: [
+        "Personalised recommendations",
+        "Solar PV analysis",
+        "Heat pump suitability",
+        "Carbon reduction planning",
+        "Remote assessment"
+      ],
+      gradient: "from-cyan-500 to-cyan-600"
+    },
+    {
+      title: "Energy procurement",
       description: "Tariff comparison and switching for homes and businesses of all sizes",
       icon: Zap,
       features: [
@@ -31,54 +57,28 @@ export const ProductShowcase = () => {
       gradient: "from-orange-500 to-orange-600"
     },
     {
-      title: "Carbon Analytics",
-      description: "Location and market based carbon tracking with comprehensive emissions data",
-      icon: Lightbulb,
+      title: "Demand flexibility",
+      description: "Smart energy management and demand response services for grid balancing",
+      icon: RefreshCw,
       features: [
-        "Carbon footprinting",
-        "Emissions tracking", 
-        "Scope 1,2,3 analysis",
-        "Net zero planning",
-        "Compliance reporting"
-      ],
-      gradient: "from-emerald-500 to-emerald-600"
-    },
-    {
-      title: "Building Fabric Data",
-      description: "EPC ratings, building fabric analysis and energy efficiency insights",
-      icon: Building,
-      features: [
-        "EPC database access",
-        "Building analytics",
-        "Efficiency ratings",
-        "Retrofit planning",
-        "Performance benchmarking"
-      ],
-      gradient: "from-cyan-500 to-cyan-600"
-    },
-    {
-      title: "Weather & Satellite",
-      description: "Comprehensive weather data and satellite imagery for energy forecasting",
-      icon: Satellite,
-      features: [
-        "Weather forecasting",
-        "Solar irradiance data",
-        "Wind pattern analysis", 
-        "Satellite imagery",
-        "Climate risk assessment"
+        "Demand response programmes",
+        "Grid balancing services",
+        "Flexible energy usage",
+        "Revenue generation",
+        "Automated participation"
       ],
       gradient: "from-purple-500 to-purple-600"
     },
     {
-      title: "Grid Intelligence",
-      description: "Grid data, pricing signals and market intelligence for energy optimisation",
-      icon: RefreshCw,
+      title: "ConsentWallet",
+      description: "Receive and share your utility data securely with trusted partners",
+      icon: Satellite,
       features: [
-        "Grid balancing services",
-        "Price forecasting",
-        "Market signal analysis",
-        "Demand response",
-        "Flexibility markets"
+        "Secure data sharing",
+        "Consent management",
+        "Utility data access",
+        "Privacy controls",
+        "Trusted partnerships"
       ],
       gradient: "from-teal-500 to-teal-600"
     }
