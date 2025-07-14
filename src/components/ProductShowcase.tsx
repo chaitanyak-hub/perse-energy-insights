@@ -43,7 +43,8 @@ export const ProductShowcase = () => {
         "Carbon reduction planning",
         "Remote assessment"
       ],
-      gradient: "from-cyan-500 to-cyan-600"
+      gradient: "from-cyan-500 to-cyan-600",
+      image: "/lovable-uploads/3ba57e9e-95ed-4024-9da1-28e4874276a8.png"
     },
     {
       title: "Energy procurement",
