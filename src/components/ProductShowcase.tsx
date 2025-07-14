@@ -85,7 +85,8 @@ export const ProductShowcase = () => {
         "Privacy controls",
         "Trusted partnerships"
       ],
-      gradient: "from-teal-500 to-teal-600"
+      gradient: "from-teal-500 to-teal-600",
+      image: "/lovable-uploads/5cfd7cd6-06c3-4c5f-aeac-9cc3159d9bf3.png"
     }
   ];
 
