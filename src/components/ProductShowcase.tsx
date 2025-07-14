@@ -15,7 +15,8 @@ export const ProductShowcase = () => {
         "Developer documentation",
         "Rate limiting & authentication"
       ],
-      gradient: "from-blue-500 to-blue-600"
+      gradient: "from-blue-500 to-blue-600",
+      image: "/lovable-uploads/da00d67f-7551-49b4-ab73-e9d812d9f2ba.png"
     },
     {
       title: "Appstore",
@@ -110,6 +111,18 @@ export const ProductShowcase = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                {product.image && (
+                  <div className="mb-6">
+                    <div className="relative overflow-hidden rounded-lg border-2 border-gray-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+                      <img 
+                        src={product.image} 
+                        alt={`${product.title} documentation`}
+                        className="w-full h-48 object-cover object-top"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
+                    </div>
+                  </div>
+                )}
                 <ul className="space-y-3">
                   {product.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center space-x-3">
