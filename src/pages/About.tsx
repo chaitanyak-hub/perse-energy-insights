@@ -15,10 +15,6 @@ const About = () => {
           <p className="text-2xl font-semibold text-white/95 mb-4">
             Market leading data and solutions powering the path to net zero in energy, real estate and finance
           </p>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            We're revolutionising energy data management with comprehensive solutions 
-            that empower businesses to optimise consumption and achieve sustainability goals.
-          </p>
         </div>
       </section>
 
