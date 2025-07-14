@@ -57,7 +57,8 @@ export const ProductShowcase = () => {
         "Contract management",
         "Multi-site portfolios"
       ],
-      gradient: "from-orange-500 to-orange-600"
+      gradient: "from-orange-500 to-orange-600",
+      image: "/lovable-uploads/f4800111-84b4-499f-bcad-60ad33830ca0.png"
     },
     {
       title: "Demand flexibility",
