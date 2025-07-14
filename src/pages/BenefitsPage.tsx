@@ -5,30 +5,6 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle, TrendingUp, Shield, Clock } from "lucide-react";
 
 const BenefitsPage = () => {
-  const keyBenefits = [
-    {
-      icon: TrendingUp,
-      title: "Cost Reduction",
-      description: "Achieve significant savings through optimised energy procurement and usage",
-      stat: "Up to 40%",
-      detail: "average cost reduction"
-    },
-    {
-      icon: Shield,
-      title: "Compliance Assurance", 
-      description: "Stay ahead of regulatory requirements with automated reporting",
-      stat: "100%",
-      detail: "compliance guarantee"
-    },
-    {
-      icon: Clock,
-      title: "Real-time Insights",
-      description: "Make informed decisions with live data and analytics",
-      stat: "24/7",
-      detail: "continuous monitoring"
-    }
-  ];
-
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -58,33 +34,6 @@ const BenefitsPage = () => {
         </div>
       </section>
 
-      {/* Key Benefits Overview */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Key Benefits
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Discover how our energy data solutions deliver measurable value across your organisation
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {keyBenefits.map((benefit, index) => (
-              <div key={index} className="text-center bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow duration-300">
-                <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <benefit.icon className="h-8 w-8 text-white" />
-                </div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">{benefit.stat}</div>
-                <div className="text-sm text-gray-500 mb-4">{benefit.detail}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{benefit.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Detailed Benefits Section */}
       <Benefits />
