@@ -68,24 +68,10 @@ export const Hero = () => {
           <div className="relative">
             <div className="relative">
               <img 
-                src={perseDashboard} 
-                alt="Perse Data Dashboard" 
+                src="/lovable-uploads/aafcbf81-9312-43d5-89b3-e398030022d1.png" 
+                alt="Perse Data Statistics" 
                 className="w-full rounded-2xl shadow-2xl"
               />
-              
-              {/* Overlay Stats */}
-              <div className="absolute top-4 right-4 bg-black/80 text-white p-4 rounded-xl backdrop-blur-sm">
-                <div className="space-y-3">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold">10,000,000+</div>
-                    <div className="text-xs opacity-90">Tonnes of carbon processed</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold">£65,000,000+</div>
-                    <div className="text-xs opacity-90">Savings identified</div>
-                  </div>
-                </div>
-              </div>
             </div>
             
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-r from-emerald-500 to-blue-600 rounded-full opacity-20 animate-pulse"></div>
