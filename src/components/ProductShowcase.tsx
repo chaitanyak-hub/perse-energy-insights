@@ -118,13 +118,13 @@ export const ProductShowcase = () => {
               <CardContent>
                 {product.image && (
                   <div className="mb-6">
-                    <div className="relative overflow-hidden rounded-lg border-2 border-gray-200 shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div className="relative overflow-hidden rounded-lg border-2 border-gray-200 shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
                       <img 
                         src={product.image} 
                         alt={`${product.title} documentation`}
-                        className="w-full h-48 object-cover object-top"
+                        className="w-full h-56 object-contain object-center p-4"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent pointer-events-none"></div>
                     </div>
                   </div>
                 )}
