@@ -12,6 +12,9 @@ const About = () => {
       <section className="py-20 bg-gradient-to-r from-emerald-500 to-blue-600">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-5xl font-bold text-white mb-6">About Perse.io</h1>
+          <p className="text-2xl font-semibold text-white/95 mb-4">
+            Market leading data and solutions powering the path to net zero in energy, real estate and finance
+          </p>
           <p className="text-xl text-white/90 max-w-3xl mx-auto">
             We're revolutionising energy data management with comprehensive solutions 
             that empower businesses to optimise consumption and achieve sustainability goals.
