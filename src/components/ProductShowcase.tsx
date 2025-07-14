@@ -111,23 +111,23 @@ export const ProductShowcase = () => {
                   <product.icon className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle className="text-2xl text-gray-900">{product.title}</CardTitle>
+                
+                {product.image && (
+                  <div className="relative overflow-hidden rounded-lg border-2 border-gray-200 shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
+                    <img 
+                      src={product.image} 
+                      alt={`${product.title} documentation`}
+                      className="w-full h-48 object-contain object-center p-4"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent pointer-events-none"></div>
+                  </div>
+                )}
+                
                 <CardDescription className="text-lg text-gray-600">
                   {product.description}
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                {product.image && (
-                  <div className="mb-6">
-                    <div className="relative overflow-hidden rounded-lg border-2 border-gray-200 shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
-                      <img 
-                        src={product.image} 
-                        alt={`${product.title} documentation`}
-                        className="w-full h-56 object-contain object-center p-4"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent pointer-events-none"></div>
-                    </div>
-                  </div>
-                )}
                 <ul className="space-y-3">
                   {product.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center space-x-3">
