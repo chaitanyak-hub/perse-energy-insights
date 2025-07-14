@@ -1,10 +1,10 @@
 
 export const Stats = () => {
   const stats = [
-    { number: "1M+", label: "Customers Served" },
-    { number: "50+", label: "Connected Suppliers" },
-    { number: "99.9%", label: "Uptime Guarantee" },
-    { number: "24/7", label: "Support Available" },
+    { number: "10M+", label: "Tonnes Carbon Processed" },
+    { number: "£65M+", label: "Savings Identified" },
+    { number: "100+", label: "Data Sources" },
+    { number: "Real-time", label: "Analytics & Insights" },
   ];
 
   return (

@@ -1,60 +1,86 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Database, Lightbulb, RefreshCw, Zap } from "lucide-react";
+import { Database, Lightbulb, RefreshCw, Zap, Building, Satellite } from "lucide-react";
 
 export const ProductShowcase = () => {
   const products = [
     {
-      title: "App Store",
-      description: "Comprehensive energy consumption, meter data, and carbon emissions data for informed decision-making.",
+      title: "APIs",
+      description: "Raw data or analysis to plugin to your system or third party software provider",
       icon: Database,
       features: [
-        "Address matching & lookup",
-        "Real-time meter data",
-        "Building fabric & EPC insights",
-        "Portfolio management",
-        "Custom reporting dashboard"
+        "Real-time data feeds",
+        "Custom integrations", 
+        "Scalable endpoints",
+        "Developer documentation",
+        "Rate limiting & authentication"
       ],
       gradient: "from-blue-500 to-blue-600"
     },
     {
-      title: "LCR (Low Carbon Recommendation)",
-      description: "AI-powered insights and recommendations to reduce energy, carbon footprint, and operational costs.",
+      title: "Energy Procurement",
+      description: "Tariff comparison and switching for homes and businesses of all sizes",
+      icon: Zap,
+      features: [
+        "Whole market comparison",
+        "Automated switching",
+        "Cost optimization",
+        "Contract management",
+        "Multi-site portfolios"
+      ],
+      gradient: "from-orange-500 to-orange-600"
+    },
+    {
+      title: "Carbon Analytics",
+      description: "Location and market based carbon tracking with comprehensive emissions data",
       icon: Lightbulb,
       features: [
-        "Data-driven insights",
-        "Solar potential analysis",
-        "ROI calculations",
-        "EPC target alignment",
-        "Automated monitoring"
+        "Carbon footprinting",
+        "Emissions tracking", 
+        "Scope 1,2,3 analysis",
+        "Net zero planning",
+        "Compliance reporting"
       ],
       gradient: "from-emerald-500 to-emerald-600"
     },
     {
-      title: "Switching",
-      description: "Personalised energy price comparison and seamless switching for both domestic and business customers.",
-      icon: RefreshCw,
+      title: "Building Fabric Data",
+      description: "EPC ratings, building fabric analysis and energy efficiency insights",
+      icon: Building,
       features: [
-        "Whole market comparison",
-        "Real-time price updates",
-        "Switch status tracking",
-        "Time-of-use tariffs",
-        "End-to-end service"
+        "EPC database access",
+        "Building analytics",
+        "Efficiency ratings",
+        "Retrofit planning",
+        "Performance benchmarking"
+      ],
+      gradient: "from-cyan-500 to-cyan-600"
+    },
+    {
+      title: "Weather & Satellite",
+      description: "Comprehensive weather data and satellite imagery for energy forecasting",
+      icon: Satellite,
+      features: [
+        "Weather forecasting",
+        "Solar irradiance data",
+        "Wind pattern analysis", 
+        "Satellite imagery",
+        "Climate risk assessment"
       ],
       gradient: "from-purple-500 to-purple-600"
     },
     {
-      title: "Flexibility",
-      description: "Earn financial rewards by voluntarily reducing electricity usage during peak demand periods.",
-      icon: Zap,
+      title: "Grid Intelligence",
+      description: "Grid data, pricing signals and market intelligence for energy optimization",
+      icon: RefreshCw,
       features: [
-        "Peak demand management",
-        "Financial incentives",
-        "Single portal access",
-        "Earnings tracking",
-        "Easy opt-in/out"
+        "Grid balancing services",
+        "Price forecasting",
+        "Market signal analysis",
+        "Demand response",
+        "Flexibility markets"
       ],
-      gradient: "from-orange-500 to-orange-600"
+      gradient: "from-teal-500 to-teal-600"
     }
   ];
 
@@ -63,15 +89,15 @@ export const ProductShowcase = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Comprehensive Energy Solutions
+            Data & Solutions Portfolio
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our integrated platform provides everything you need to optimise energy consumption, 
-            reduce costs, and achieve your sustainability goals.
+            Comprehensive energy data solutions covering gas, electricity, carbon emissions, 
+            building fabric, weather intelligence and grid optimization for net zero transformation.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="bg-white hover:shadow-xl transition-all duration-300 border-0 shadow-lg group">
               <CardHeader className="space-y-4">

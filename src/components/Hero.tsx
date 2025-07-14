@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, TrendingDown, Shield } from "lucide-react";
+import perseDashboard from "@/assets/perse-dashboard.png";
 
 export const Hero = () => {
   return (
@@ -10,11 +11,14 @@ export const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Energy Data That
-                <span className="bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent"> Drives Results</span>
+                Market leading data and solutions
+                <span className="bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent"> powering the path to net zero</span>
+                <span className="text-gray-700 block text-3xl lg:text-4xl mt-2">
+                  in energy, real estate and finance
+                </span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Comprehensive energy consumption, carbon emissions, and performance data to power your Net Zero journey. Make informed decisions with real-time insights and actionable recommendations.
+                gas, electricity, location and market based carbon, pricing, building fabric, EPC, weather, satellite, grid
               </p>
             </div>
             
@@ -62,36 +66,24 @@ export const Hero = () => {
           </div>
           
           <div className="relative">
-            <div className="bg-white rounded-2xl shadow-2xl p-8 border border-gray-200">
-              <div className="space-y-6">
-                <div className="flex items-center justify-between">
-                  <h3 className="text-lg font-semibold text-gray-900">Energy Dashboard</h3>
-                  <div className="w-3 h-3 bg-emerald-500 rounded-full animate-pulse"></div>
-                </div>
-                
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-emerald-50 rounded-lg p-4">
-                    <div className="text-2xl font-bold text-emerald-600">24%</div>
-                    <div className="text-sm text-gray-600">Cost Reduction</div>
-                  </div>
-                  <div className="bg-blue-50 rounded-lg p-4">
-                    <div className="text-2xl font-bold text-blue-600">1.2M</div>
-                    <div className="text-sm text-gray-600">kWh Tracked</div>
-                  </div>
-                </div>
-                
+            <div className="relative">
+              <img 
+                src={perseDashboard} 
+                alt="Perse Data Dashboard" 
+                className="w-full rounded-2xl shadow-2xl"
+              />
+              
+              {/* Overlay Stats */}
+              <div className="absolute top-4 right-4 bg-black/80 text-white p-4 rounded-xl backdrop-blur-sm">
                 <div className="space-y-3">
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-600">Carbon Footprint</span>
-                    <span className="text-sm font-medium text-gray-900">↓ 18%</span>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">10,000,000+</div>
+                    <div className="text-xs opacity-90">Tonnes of carbon processed</div>
                   </div>
-                  <div className="bg-gray-200 rounded-full h-2">
-                    <div className="bg-gradient-to-r from-emerald-500 to-blue-600 h-2 rounded-full w-3/4 transition-all duration-1000"></div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">£65,000,000+</div>
+                    <div className="text-xs opacity-90">Savings identified</div>
                   </div>
-                </div>
-                
-                <div className="pt-4 border-t border-gray-200">
-                  <div className="text-xs text-gray-500 text-center">Live data from 1,247 meters</div>
                 </div>
               </div>
             </div>
