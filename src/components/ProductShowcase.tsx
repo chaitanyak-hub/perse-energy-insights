@@ -29,7 +29,8 @@ export const ProductShowcase = () => {
         "No-code solutions",
         "Pre-built applications"
       ],
-      gradient: "from-emerald-500 to-emerald-600"
+      gradient: "from-emerald-500 to-emerald-600",
+      image: "/lovable-uploads/4c174d27-94a8-4d03-8fcf-bb83f2a1dba9.png"
     },
     {
       title: "Optimise",
