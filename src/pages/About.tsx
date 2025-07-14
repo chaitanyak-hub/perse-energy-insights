@@ -103,12 +103,43 @@ const About = () => {
             </p>
           </div>
 
-          {/* Team content will be added here */}
-          <div className="text-center py-12 bg-gray-50 rounded-2xl">
-            <Users className="h-16 w-16 text-gray-400 mx-auto mb-4" />
-            <p className="text-gray-500 text-lg">
-              Team content to be added from perse.io/team
-            </p>
+          {/* Team Leadership */}
+          <div className="mb-16">
+            <img 
+              src="/lovable-uploads/a56e74c1-d781-453a-b93f-231f2bad32af.png" 
+              alt="Perse.io Leadership Team" 
+              className="w-full max-w-4xl mx-auto rounded-2xl shadow-lg"
+            />
+          </div>
+
+          {/* Team Details */}
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Jane Lucy</h3>
+              <p className="text-lg text-emerald-600 font-semibold mb-3">CEO & Co-Founder</p>
+              <p className="text-gray-600 leading-relaxed">
+                Visionary leader driving Perse.io's mission to democratise energy data access 
+                and empower sustainable business decisions across industries.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Vikesh Sachdeva</h3>
+              <p className="text-lg text-blue-600 font-semibold mb-3">Chief Strategy Officer & Co-Founder</p>
+              <p className="text-gray-600 leading-relaxed">
+                Strategic mastermind shaping market positioning and growth initiatives, 
+                ensuring Perse.io remains at the forefront of energy innovation.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Jaipal Naidu</h3>
+              <p className="text-lg text-purple-600 font-semibold mb-3">Product & Operations Owner & Co-Founder</p>
+              <p className="text-gray-600 leading-relaxed">
+                Product visionary and operations expert ensuring seamless delivery 
+                of cutting-edge energy data solutions and exceptional user experiences.
+              </p>
+            </div>
           </div>
         </div>
       </section>
