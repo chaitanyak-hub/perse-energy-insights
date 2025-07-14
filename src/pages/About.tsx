@@ -9,12 +9,15 @@ const About = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-emerald-500 to-blue-600">
-        <div className="container mx-auto px-6 text-center">
-          <h1 className="text-5xl font-bold text-white mb-6">About Perse.io</h1>
-          <p className="text-2xl font-semibold text-white/95 mb-4">
-            Market leading data and solutions powering the path to net zero in energy, real estate and finance
-          </p>
+      <section className="py-20 bg-gray-100">
+        <div className="container mx-auto px-6">
+          <div className="max-w-6xl mx-auto">
+            <img 
+              src="/lovable-uploads/63595f50-1a95-4b4e-8b99-0a7a53e30378.png" 
+              alt="Market leading data and solutions powering the path to net zero" 
+              className="w-full rounded-2xl shadow-lg"
+            />
+          </div>
         </div>
       </section>
 
