@@ -20,38 +20,6 @@ const BenefitsPage = () => {
         </div>
       </section>
 
-      {/* Proven Results Section - Moved to top */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-text-primary mb-6">
-              Proven Results Across Industries
-            </h2>
-            <p className="text-xl text-text-primary/70 mb-8">
-              Join hundreds of organisations already benefiting from our comprehensive energy data solutions.
-            </p>
-            
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <div className="bg-muted p-6 rounded-xl shadow-md">
-                <div className="text-3xl font-bold text-emerald-600 mb-2">10M+</div>
-                <div className="text-text-primary font-semibold mb-1">Tonnes Carbon Processed</div>
-                <div className="text-text-primary/70 text-sm">Helping organisations track and reduce their carbon footprint</div>
-              </div>
-              <div className="bg-muted p-6 rounded-xl shadow-md">
-                <div className="text-3xl font-bold text-blue-600 mb-2">£65M+</div>
-                <div className="text-text-primary font-semibold mb-1">Savings Identified</div>
-                <div className="text-text-primary/70 text-sm">Cost reductions achieved through our optimisation solutions</div>
-              </div>
-              <div className="bg-muted p-6 rounded-xl shadow-md">
-                <div className="text-3xl font-bold text-purple-600 mb-2">1000+</div>
-                <div className="text-text-primary font-semibold mb-1">Data Sources</div>
-                <div className="text-text-primary/70 text-sm">Comprehensive data coverage for informed decision making</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
 
       {/* Why Choose Perse Section */}
       <Benefits />
