@@ -101,7 +101,7 @@ export const ProductShowcase = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-text-primary mb-4">
-            Solutions
+            Products
           </h2>
           <p className="text-xl text-text-primary/70 max-w-3xl mx-auto">
             Click on each solution to explore our live applications.
