@@ -24,40 +24,27 @@ const BenefitsPage = () => {
       {/* Why Choose Perse Section */}
       <Benefits />
 
-      {/* Trusted by Section */}
+      {/* Partners and Recognition */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-text-primary mb-4">Trusted by</h2>
-            <p className="text-xl text-text-primary/70 max-w-3xl mx-auto">
-              Leading organizations across energy, property, and finance trust Perse.io to power their transformation
-            </p>
-          </div>
-          <div className="flex justify-center">
-            <img 
-              src="/lovable-uploads/f3ab880a-8f51-4da9-857c-efbc69413389.png" 
-              alt="Some of our customers and partners" 
-              className="max-w-4xl w-full h-auto rounded-lg shadow-sm"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Recognised and supported by Section */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-text-primary mb-4">Recognised and supported by</h2>
-            <p className="text-xl text-text-primary/70 max-w-3xl mx-auto">
-              Backed by industry leaders and innovation programs
-            </p>
-          </div>
-          <div className="flex justify-center">
-            <img 
-              src="/lovable-uploads/13eaddb8-0a1b-4c49-8bb2-ee9a9131196f.png" 
-              alt="We support" 
-              className="max-w-4xl w-full h-auto rounded-lg shadow-sm"
-            />
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg max-w-6xl mx-auto">
+            <div className="space-y-12">
+              <div className="flex justify-center">
+                <img 
+                  src="/lovable-uploads/f3ab880a-8f51-4da9-857c-efbc69413389.png" 
+                  alt="Some of our customers and partners" 
+                  className="max-w-4xl w-full h-auto rounded-lg"
+                />
+              </div>
+              
+              <div className="flex justify-center">
+                <img 
+                  src="/lovable-uploads/13eaddb8-0a1b-4c49-8bb2-ee9a9131196f.png" 
+                  alt="We support" 
+                  className="max-w-4xl w-full h-auto rounded-lg"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
