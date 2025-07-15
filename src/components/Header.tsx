@@ -7,11 +7,12 @@ export const Header = () => {
     <header className="bg-white/95 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-emerald-500 to-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">P</span>
-            </div>
-            <span className="text-2xl font-bold text-gray-900">Perse.io</span>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/1f565685-cbbd-4d62-b537-1d2bd438c82e.png" 
+              alt="Perse logo" 
+              className="h-8 w-auto"
+            />
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8">
