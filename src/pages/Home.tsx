@@ -1,7 +1,6 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Stats, StatItem } from "@/components/Stats";
-import { Target, Award, Globe, Users } from "lucide-react";
 
 const Home = () => {
   return (
@@ -32,78 +31,62 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <Stats />
-
-      {/* Mission & Vision */}
-      <section className="py-20 bg-white">
+      {/* Data Section */}
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <div className="w-12 h-12 bg-gradient-to-r from-emerald-500 to-blue-600 rounded-lg flex items-center justify-center mb-6">
-                <Target className="h-6 w-6 text-white" />
-              </div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                To democratise access to energy data and insights, enabling businesses of all sizes 
-                to make informed decisions that drive efficiency, reduce costs, and support 
-                environmental sustainability.
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-bold text-text-primary mb-8">Data</h2>
+            <div className="space-y-6 text-lg text-text-primary/80 leading-relaxed">
+              <p>
+                A one-stop shop for all data needs for utility optimisation, carbon reporting and carbon reduction.
+              </p>
+              <p>
+                We convert disparate datasets from energy, insurance, government and Google, to ensure data makes sense for your use case "out of the box".
+              </p>
+              <p>
+                Our proprietary algorithms offer market leading address to utility meter matching, meaning data may be accessed with address as the only required data input.
               </p>
             </div>
-            <div>
-              <div className="w-12 h-12 bg-gradient-to-r from-emerald-500 to-blue-600 rounded-lg flex items-center justify-center mb-6">
-                <Globe className="h-6 w-6 text-white" />
-              </div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Vision</h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                A world where every organisation has the tools and insights needed to optimise 
-                their energy usage, contributing to a more sustainable and efficient global 
-                energy ecosystem.
+            
+            <div className="mt-12">
+              <p className="text-xl text-text-primary mb-8">
+                Access data via API or our Appstore, being a user interface to search and download data.
               </p>
+              
+              <div className="grid md:grid-cols-2 gap-8 mt-8">
+                <div className="bg-muted p-8 rounded-xl">
+                  <h3 className="text-2xl font-semibold text-text-primary mb-4">APIs</h3>
+                  <p className="text-text-primary/70">
+                    Direct integration with our comprehensive data platform through robust APIs.
+                  </p>
+                </div>
+                
+                <div className="bg-muted p-8 rounded-xl">
+                  <h3 className="text-2xl font-semibold text-text-primary mb-4">Appstore</h3>
+                  <p className="text-text-primary/70">
+                    User-friendly interface to search, explore, and download the data you need.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values */}
-      <section className="py-20 bg-gray-50">
+      {/* Solutions Section */}
+      <section className="py-20 bg-muted">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Values</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The principles that guide everything we do at Perse.io
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Award className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Excellence</h3>
-              <p className="text-gray-600">
-                We strive for the highest standards in everything we deliver, 
-                from data accuracy to customer service.
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <h2 className="text-4xl font-bold text-text-primary mb-8">Solutions</h2>
+            <div className="space-y-6 text-lg text-text-primary/80 leading-relaxed">
+              <p>
+                Our solutions make it easy to understand energy and carbon baselines, benchmark comparisons, as well as personalised recommendations to optimise energy cost and carbon.
               </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Users className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Collaboration</h3>
-              <p className="text-gray-600">
-                We believe in the power of partnership and work closely with our 
-                clients to achieve shared goals.
+              <p>
+                We are integrated with utility providers, demand response providers, as well as powering solutions for installers of low carbon technologies, including solar PV and heat pumps.
               </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Globe className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Sustainability</h3>
-              <p className="text-gray-600">
-                Environmental responsibility is at the heart of our mission and 
-                drives our innovation.
+              <p>
+                Future proofed legal compliance can be built-in with our ConsentWallet permission management tool, based on the principles of Open Banking and Ofgem's Consumer Consent Solution.
               </p>
             </div>
           </div>

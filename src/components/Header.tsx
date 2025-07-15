@@ -4,32 +4,42 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <header className="bg-white/95 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
+    <header className="bg-background border-b border-border">
       <div className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src="/lovable-uploads/1f565685-cbbd-4d62-b537-1d2bd438c82e.png" 
-              alt="Perse logo" 
-              className="h-8 w-auto"
-            />
-          </Link>
+        <div className="flex flex-col">
+          {/* Logo and Navigation Row */}
+          <div className="flex items-center justify-between">
+            <Link to="/" className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/1f565685-cbbd-4d62-b537-1d2bd438c82e.png" 
+                alt="Perse logo" 
+                className="h-8 w-auto"
+              />
+            </Link>
+            
+            <nav className="hidden md:flex items-center space-x-8">
+              <Link to="/" className="text-text-primary hover:text-text-secondary transition-colors">Home</Link>
+              <Link to="/products" className="text-text-primary hover:text-text-secondary transition-colors">Products</Link>
+              <Link to="/benefits" className="text-text-primary hover:text-text-secondary transition-colors">Benefits</Link>
+              <Link to="/sectors" className="text-text-primary hover:text-text-secondary transition-colors">Sectors</Link>
+              <Link to="/about" className="text-text-primary hover:text-text-secondary transition-colors">About</Link>
+            </nav>
+            
+            <div className="flex items-center space-x-4">
+              <Button variant="ghost" className="text-text-primary hover:text-text-secondary">
+                Login
+              </Button>
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Get Started
+              </Button>
+            </div>
+          </div>
           
-          <nav className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-600 hover:text-gray-900 transition-colors">Home</Link>
-            <Link to="/products" className="text-gray-600 hover:text-gray-900 transition-colors">Products</Link>
-            <Link to="/benefits" className="text-gray-600 hover:text-gray-900 transition-colors">Benefits</Link>
-            <Link to="/sectors" className="text-gray-600 hover:text-gray-900 transition-colors">Sectors</Link>
-            <Link to="/about" className="text-gray-600 hover:text-gray-900 transition-colors">About</Link>
-          </nav>
-          
-          <div className="flex items-center space-x-4">
-            <Button variant="ghost" className="text-gray-600 hover:text-gray-900">
-              Login
-            </Button>
-            <Button className="bg-gradient-to-r from-emerald-500 to-blue-600 hover:from-emerald-600 hover:to-blue-700 text-white">
-              Get Started
-            </Button>
+          {/* Strapline Row */}
+          <div className="mt-4 text-center">
+            <p className="text-lg text-text-primary">
+              Market leading <span className="font-semibold text-text-secondary">data and solutions</span> powering the path to net zero in energy, real estate and finance
+            </p>
           </div>
         </div>
       </div>
