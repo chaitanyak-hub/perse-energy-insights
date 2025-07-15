@@ -54,7 +54,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-text-primary mb-4">Our Values</h2>
             <p className="text-xl text-text-primary/70 max-w-3xl mx-auto">
-              The principles that guide everything we do at Perse.io
+              The principles that guide everything we do at Perse
             </p>
           </div>
 
