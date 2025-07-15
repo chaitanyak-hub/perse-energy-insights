@@ -121,18 +121,21 @@ const Sectors = () => {
       {/* Energy Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-text-primary mb-4 text-center">Energy</h2>
             <p className="text-xl text-text-primary/70 mb-12 text-center">
               Some of the use cases we support in the energy market
             </p>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {["Energy procurement", "Commission reconciliation", "Bill validation", "Analysis and recommendations for pass through costs", "Demand flexibility"].map((useCase, index) => (
-                <div key={index} className="bg-muted p-6 rounded-xl text-center">
-                  <h3 className="text-lg font-semibold text-text-primary">{useCase}</h3>
-                </div>
-              ))}
+            <div className="bg-muted rounded-2xl p-8">
+              <ul className="space-y-4 max-w-4xl mx-auto">
+                {["Energy procurement", "Commission reconciliation", "Bill validation", "Analysis and recommendations for pass through costs", "Demand flexibility"].map((useCase, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <CheckCircle className="h-6 w-6 text-emerald-500 mt-0.5 shrink-0" />
+                    <span className="text-lg text-text-primary font-medium">{useCase}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
@@ -141,18 +144,21 @@ const Sectors = () => {
       {/* Property Section */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-text-primary mb-4 text-center">Property</h2>
             <p className="text-xl text-text-primary/70 mb-12 text-center">
               Some of the use cases we support in the property market
             </p>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {["Carbon reporting: location and market based", "Landlord access to data without tenant consent", "GRESB partner", "Identification of measures to reduce carbon with personalised payback calculations without the need for a site visit", "Portfolio management", "Reconciliation and reporting of outcomes post low carbon investments"].map((useCase, index) => (
-                <div key={index} className="bg-background p-6 rounded-xl text-center">
-                  <h3 className="text-lg font-semibold text-text-primary">{useCase}</h3>
-                </div>
-              ))}
+            <div className="bg-background rounded-2xl p-8">
+              <ul className="space-y-4 max-w-4xl mx-auto">
+                {["Carbon reporting: location and market based", "Landlord access to data without tenant consent", "GRESB partner", "Identification of measures to reduce carbon with personalised payback calculations without the need for a site visit", "Portfolio management", "Reconciliation and reporting of outcomes post low carbon investments"].map((useCase, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <CheckCircle className="h-6 w-6 text-emerald-500 mt-0.5 shrink-0" />
+                    <span className="text-lg text-text-primary font-medium">{useCase}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
@@ -161,18 +167,21 @@ const Sectors = () => {
       {/* Finance Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-text-primary mb-4 text-center">Finance</h2>
             <p className="text-xl text-text-primary/70 mb-12 text-center">
               Some of the use cases we support in the finance market
             </p>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {["Carbon reporting: location and market based", "Portfolio and individual property assessment of green loan opportunities", "Customer engagement tools: residential, SME and commercial", "Perseus partner", "Reconciliation and reporting of outcomes post finance"].map((useCase, index) => (
-                <div key={index} className="bg-muted p-6 rounded-xl text-center">
-                  <h3 className="text-lg font-semibold text-text-primary">{useCase}</h3>
-                </div>
-              ))}
+            <div className="bg-muted rounded-2xl p-8">
+              <ul className="space-y-4 max-w-4xl mx-auto">
+                {["Carbon reporting: location and market based", "Portfolio and individual property assessment of green loan opportunities", "Customer engagement tools: residential, SME and commercial", "Perseus partner", "Reconciliation and reporting of outcomes post finance"].map((useCase, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <CheckCircle className="h-6 w-6 text-emerald-500 mt-0.5 shrink-0" />
+                    <span className="text-lg text-text-primary font-medium">{useCase}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
