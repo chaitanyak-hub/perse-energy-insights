@@ -94,17 +94,15 @@ const About = () => {
           </div>
 
           {/* Team Leadership */}
-          <div className="mb-16">
-            <img 
-              src="/lovable-uploads/a56e74c1-d781-453a-b93f-231f2bad32af.png" 
-              alt="Perse.io Leadership Team" 
-              className="w-full max-w-4xl mx-auto rounded-2xl shadow-lg"
-            />
-          </div>
-
-          {/* Team Details */}
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-16">
             <div className="text-center">
+              <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden">
+                <img 
+                  src="/lovable-uploads/4d99d5cc-c279-428f-bf47-257999d90917.png" 
+                  alt="Jane Lucy - CEO & Co-Founder" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-2xl font-bold text-text-primary mb-2">Jane Lucy</h3>
               <p className="text-lg text-emerald-600 font-semibold mb-3">CEO & Co-Founder</p>
               <p className="text-text-primary/70 leading-relaxed">
@@ -114,6 +112,13 @@ const About = () => {
             </div>
             
             <div className="text-center">
+              <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden">
+                <img 
+                  src="/lovable-uploads/1776843b-8b0e-47cc-89cf-abf5b696f0e3.png" 
+                  alt="Vikesh Sachdeva - Chief Strategy Officer & Co-Founder" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-2xl font-bold text-text-primary mb-2">Vikesh Sachdeva</h3>
               <p className="text-lg text-blue-600 font-semibold mb-3">Chief Strategy Officer & Co-Founder</p>
               <p className="text-text-primary/70 leading-relaxed">
@@ -123,6 +128,13 @@ const About = () => {
             </div>
             
             <div className="text-center">
+              <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden">
+                <img 
+                  src="/lovable-uploads/2b19cf67-77fe-4a31-b6fe-b2bf1c6484a3.png" 
+                  alt="Jaipal Naidu - Chief Product Officer & Co-Founder" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-2xl font-bold text-text-primary mb-2">Jaipal Naidu</h3>
               <p className="text-lg text-purple-600 font-semibold mb-3">Chief Product Officer & Co-Founder</p>
               <p className="text-text-primary/70 leading-relaxed">
