@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Stats } from "@/components/Stats";
+import { Stats, StatItem } from "@/components/Stats";
 import { Target, Award, Globe, Users } from "lucide-react";
 
 const Home = () => {
@@ -9,14 +9,25 @@ const Home = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="py-20 bg-gray-100">
+      <section className="py-20 bg-muted">
         <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto">
-            <img 
-              src="/lovable-uploads/63595f50-1a95-4b4e-8b99-0a7a53e30378.png" 
-              alt="Market leading data and solutions powering the path to net zero" 
-              className="w-full rounded-2xl shadow-lg"
-            />
+          <div className="max-w-6xl mx-auto bg-muted rounded-2xl p-8 md:p-12">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              {/* Left side - Text */}
+              <div>
+                <h1 className="text-4xl md:text-5xl font-bold text-text-primary leading-tight">
+                  Market leading data and solutions powering the path to net zero in energy, real estate and finance
+                </h1>
+              </div>
+              
+              {/* Right side - Stats */}
+              <div className="bg-gray-900 rounded-xl p-8">
+                <div className="grid grid-cols-1 gap-6">
+                  <StatItem number="10000000" label="Tonnes of carbon processed" isAnimated={true} isDark={true} />
+                  <StatItem number="£65000000" label="Savings identified" isAnimated={true} isDark={true} />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -1,12 +1,20 @@
 
 import { useCounterAnimation } from "@/hooks/useCounterAnimation";
 
-const StatItem = ({ number, label, isAnimated = false }: { number: string; label: string; isAnimated?: boolean }) => {
+export const StatItem = ({ number, label, isAnimated = false, isDark = false }: { 
+  number: string; 
+  label: string; 
+  isAnimated?: boolean; 
+  isDark?: boolean; 
+}) => {
+  const textColor = isDark ? "text-white" : "text-text-primary";
+  const labelColor = isDark ? "text-white/70" : "text-text-primary/70";
+  
   if (!isAnimated) {
     return (
       <div className="text-center">
-        <div className="text-4xl font-bold text-text-primary mb-2">{number}</div>
-        <div className="text-text-primary/70">{label}</div>
+        <div className={`text-4xl font-bold ${textColor} mb-2`}>{number}</div>
+        <div className={labelColor}>{label}</div>
       </div>
     );
   }
@@ -26,10 +34,10 @@ const StatItem = ({ number, label, isAnimated = false }: { number: string; label
 
   return (
     <div ref={elementRef} className="text-center">
-      <div className="text-4xl font-bold text-text-primary mb-2">
+      <div className={`text-4xl font-bold ${textColor} mb-2`}>
         {number.startsWith('£') ? `£${formatNumber(count)}` : formatNumber(count)}
       </div>
-      <div className="text-text-primary/70">{label}</div>
+      <div className={labelColor}>{label}</div>
     </div>
   );
 };
