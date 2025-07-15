@@ -94,53 +94,42 @@ const About = () => {
           </div>
 
           {/* Team Leadership */}
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-16">
-            <div className="text-center">
-              <div className="w-56 h-56 mx-auto mb-6 rounded-full overflow-hidden border-4 border-gray-200 shadow-lg">
-                <img 
-                  src="/lovable-uploads/4d99d5cc-c279-428f-bf47-257999d90917.png" 
-                  alt="Jane Lucy - CEO & Co-Founder" 
-                  className="w-full h-full object-cover object-center"
-                />
-              </div>
-              <h3 className="text-2xl font-bold text-text-primary mb-2">Jane Lucy</h3>
-              <p className="text-lg text-emerald-600 font-semibold mb-3">CEO & Co-Founder</p>
-              <p className="text-text-primary/70 leading-relaxed">
-                Visionary leader driving Perse's mission to democratise energy data access 
-                and empower sustainable business decisions across industries.
-              </p>
+          <div className="text-center mb-16">
+            <div className="max-w-4xl mx-auto mb-12">
+              <img 
+                src="/lovable-uploads/2b2d3619-6149-49a8-b7a3-7840810cbd98.png" 
+                alt="Perse Leadership Team - Jane Lucy, Vikesh Sachdeva, Jaipal Naidu" 
+                className="w-full h-auto"
+              />
             </div>
             
-            <div className="text-center">
-              <div className="w-56 h-56 mx-auto mb-6 rounded-full overflow-hidden border-4 border-gray-200 shadow-lg">
-                <img 
-                  src="/lovable-uploads/1776843b-8b0e-47cc-89cf-abf5b696f0e3.png" 
-                  alt="Vikesh Sachdeva - Chief Strategy Officer & Co-Founder" 
-                  className="w-full h-full object-cover object-center"
-                />
+            <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-text-primary mb-2">Jane Lucy</h3>
+                <p className="text-lg text-emerald-600 font-semibold mb-3">CEO & Co-Founder</p>
+                <p className="text-text-primary/70 leading-relaxed">
+                  Visionary leader driving Perse's mission to democratise energy data access 
+                  and empower sustainable business decisions across industries.
+                </p>
               </div>
-              <h3 className="text-2xl font-bold text-text-primary mb-2">Vikesh Sachdeva</h3>
-              <p className="text-lg text-blue-600 font-semibold mb-3">Chief Strategy Officer & Co-Founder</p>
-              <p className="text-text-primary/70 leading-relaxed">
-                Strategic mastermind shaping market positioning and growth initiatives, 
-                ensuring Perse remains at the forefront of energy innovation.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-56 h-56 mx-auto mb-6 rounded-full overflow-hidden border-4 border-gray-200 shadow-lg">
-                <img 
-                  src="/lovable-uploads/2b19cf67-77fe-4a31-b6fe-b2bf1c6484a3.png" 
-                  alt="Jaipal Naidu - Chief Product Officer & Co-Founder" 
-                  className="w-full h-full object-cover object-center"
-                />
+              
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-text-primary mb-2">Vikesh Sachdeva</h3>
+                <p className="text-lg text-blue-600 font-semibold mb-3">Chief Strategy Officer & Co-Founder</p>
+                <p className="text-text-primary/70 leading-relaxed">
+                  Strategic mastermind shaping market positioning and growth initiatives, 
+                  ensuring Perse remains at the forefront of energy innovation.
+                </p>
               </div>
-              <h3 className="text-2xl font-bold text-text-primary mb-2">Jaipal Naidu</h3>
-              <p className="text-lg text-purple-600 font-semibold mb-3">Chief Product Officer & Co-Founder</p>
-              <p className="text-text-primary/70 leading-relaxed">
-                Product visionary and operations expert ensuring seamless delivery 
-                of cutting-edge energy data solutions and exceptional user experiences.
-              </p>
+              
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-text-primary mb-2">Jaipal Naidu</h3>
+                <p className="text-lg text-purple-600 font-semibold mb-3">Chief Product Officer & Co-Founder</p>
+                <p className="text-text-primary/70 leading-relaxed">
+                  Product visionary and operations expert ensuring seamless delivery 
+                  of cutting-edge energy data solutions and exceptional user experiences.
+                </p>
+              </div>
             </div>
           </div>
         </div>
