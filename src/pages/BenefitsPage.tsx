@@ -14,7 +14,7 @@ const BenefitsPage = () => {
         <div className="container mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl lg:text-6xl font-bold text-text-primary leading-tight mb-6">
-              <span className="font-semibold text-text-secondary">Market leading</span> data and solutions powering the path to net zero in energy, real estate and finance
+              <span className="text-primary font-extrabold">Market leading</span> data and solutions powering the path to net zero in energy, real estate and finance
             </h1>
           </div>
         </div>
@@ -65,9 +65,12 @@ const BenefitsPage = () => {
               Leading organizations across energy, property, and finance trust Perse.io to power their transformation
             </p>
           </div>
-          {/* Placeholder for trust logos - will be added when provided */}
           <div className="flex justify-center">
-            <p className="text-text-primary/70 italic">Trust logos will be displayed here</p>
+            <img 
+              src="/lovable-uploads/af3980c7-5143-45cb-a98f-f4e48caa718d.png" 
+              alt="Some of our customers and partners" 
+              className="max-w-full h-auto"
+            />
           </div>
         </div>
       </section>
@@ -81,9 +84,12 @@ const BenefitsPage = () => {
               Backed by industry leaders and innovation programs
             </p>
           </div>
-          {/* Placeholder for recognition logos - will be added when provided */}
           <div className="flex justify-center">
-            <p className="text-text-primary/70 italic">Recognition logos will be displayed here</p>
+            <img 
+              src="/lovable-uploads/988f13eb-b200-49d4-b7fc-c8276d1dc911.png" 
+              alt="We support" 
+              className="max-w-full h-auto"
+            />
           </div>
         </div>
       </section>
