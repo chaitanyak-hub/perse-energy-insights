@@ -14,7 +14,7 @@ const Products = () => {
         <div className="container mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl lg:text-6xl font-bold text-text-primary leading-tight mb-6">
-              Our Products
+              Market leading <span className="text-primary font-extrabold">data and solutions</span> powering the path to net zero in energy, real estate and finance
             </h1>
           </div>
         </div>
