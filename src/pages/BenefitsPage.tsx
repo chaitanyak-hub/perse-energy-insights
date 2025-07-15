@@ -67,9 +67,9 @@ const BenefitsPage = () => {
           </div>
           <div className="flex justify-center">
             <img 
-              src="/lovable-uploads/af3980c7-5143-45cb-a98f-f4e48caa718d.png" 
+              src="/lovable-uploads/f3ab880a-8f51-4da9-857c-efbc69413389.png" 
               alt="Some of our customers and partners" 
-              className="max-w-full h-auto"
+              className="max-w-4xl w-full h-auto rounded-lg shadow-sm"
             />
           </div>
         </div>
@@ -86,9 +86,9 @@ const BenefitsPage = () => {
           </div>
           <div className="flex justify-center">
             <img 
-              src="/lovable-uploads/988f13eb-b200-49d4-b7fc-c8276d1dc911.png" 
+              src="/lovable-uploads/13eaddb8-0a1b-4c49-8bb2-ee9a9131196f.png" 
               alt="We support" 
-              className="max-w-full h-auto"
+              className="max-w-4xl w-full h-auto rounded-lg shadow-sm"
             />
           </div>
         </div>
