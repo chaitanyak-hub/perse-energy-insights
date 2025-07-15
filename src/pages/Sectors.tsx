@@ -145,13 +145,6 @@ const Sectors = () => {
                     </div>
                   ))}
                 </div>
-                
-                <div className="mt-8 pt-6 border-t border-gray-100">
-                  <Button className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white">
-                    Explore Energy Solutions
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
-                </div>
               </div>
             </div>
 
@@ -174,13 +167,6 @@ const Sectors = () => {
                       <span className="text-sm text-gray-700 font-medium">{useCase}</span>
                     </div>
                   ))}
-                </div>
-                
-                <div className="mt-8 pt-6 border-t border-gray-100">
-                  <Button className="w-full bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white">
-                    Explore Property Solutions
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
                 </div>
               </div>
             </div>
@@ -205,72 +191,12 @@ const Sectors = () => {
                     </div>
                   ))}
                 </div>
-                
-                <div className="mt-8 pt-6 border-t border-gray-100">
-                  <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white">
-                    Explore Finance Solutions
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Statistics Section */}
-      <section className="py-20 bg-muted">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-text-primary mb-4">Proven Impact Across Sectors</h2>
-            <p className="text-xl text-text-primary/70 max-w-3xl mx-auto">
-              See how our data solutions are driving transformation across all three sectors
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="text-center bg-white rounded-xl p-8 shadow-lg">
-              <div className="text-4xl font-bold text-orange-600 mb-2">500+</div>
-              <div className="text-gray-600 font-medium">Energy Companies</div>
-              <div className="text-sm text-gray-500 mt-2">Using our procurement solutions</div>
-            </div>
-            
-            <div className="text-center bg-white rounded-xl p-8 shadow-lg">
-              <div className="text-4xl font-bold text-emerald-600 mb-2">10M+</div>
-              <div className="text-gray-600 font-medium">Properties Analysed</div>
-              <div className="text-sm text-gray-500 mt-2">For carbon reduction opportunities</div>
-            </div>
-            
-            <div className="text-center bg-white rounded-xl p-8 shadow-lg">
-              <div className="text-4xl font-bold text-blue-600 mb-2">£2B+</div>
-              <div className="text-gray-600 font-medium">Green Finance Enabled</div>
-              <div className="text-sm text-gray-500 mt-2">Through ESG data insights</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-emerald-500 to-blue-600">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Transform Your Sector?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join leading organisations across energy, property, and banking who trust Perse.io 
-            to drive their sustainability and operational goals.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="text-lg px-8 py-3 bg-white text-gray-900 hover:bg-gray-100">
-              Get Started Today
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-white text-white hover:bg-white/10">
-              Schedule Consultation
-            </Button>
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
