@@ -21,14 +21,24 @@ export const Footer = () => {
                 <span>✉️</span>
                 <span>info@perse.io</span>
               </div>
-              <div className="flex items-center space-x-2">
+              <a 
+                href="https://www.linkedin.com/company/persetechnology/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 hover:text-white transition-colors"
+              >
                 <span>🔗</span>
                 <span>LinkedIn</span>
-              </div>
-              <div className="flex items-center space-x-2">
+              </a>
+              <a 
+                href="https://www.google.com/maps/place/Spaces+-+London,+Spaces+Oxford+Street/@51.5161381,-0.1384085,17z/data=!3m2!4b1!5s0x48760529db8641a7:0x8895c9a52c2079ab!4m6!3m5!1s0x48761b2adeb577f5:0x9f57e4d2d86b33fc!8m2!3d51.5161381!4d-0.1384085!16s%2Fg%2F11ckng6mkw?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 hover:text-white transition-colors"
+              >
                 <span>📍</span>
                 <span>Our Location</span>
-              </div>
+              </a>
             </div>
           </div>
 
