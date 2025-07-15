@@ -41,31 +41,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <img 
-                src="/lovable-uploads/27f46c19-86c1-4198-a364-8521388d9a7d.png" 
-                alt="Perse.io" 
-                className="h-12 w-auto"
-              />
-            </div>
-            <p className="text-gray-400">
-              Comprehensive energy data solutions for a sustainable future.
-            </p>
-          </div>
-
-
-          <div>
-            <h4 className="font-semibold mb-4">Company</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Support</a></li>
-            </ul>
-          </div>
-
+        <div className="flex justify-center">
           <div>
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-gray-400">
