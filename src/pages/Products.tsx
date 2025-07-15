@@ -26,28 +26,37 @@ const Products = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-text-primary mb-8">Data</h2>
-              <div className="max-w-4xl mx-auto space-y-6 text-lg text-text-primary/80 leading-relaxed">
-                <p>
-                  A one-stop shop for all data needs for utility optimisation, carbon reporting and carbon reduction.
-                </p>
-                <p>
-                  We convert disparate datasets from energy, insurance, government and Google, to ensure data makes sense for your use case "out of the box".
-                </p>
-                <p>
-                  Our proprietary algorithms offer market leading address to utility meter matching, meaning data may be accessed with address as the only required data input.
-                </p>
-              </div>
             </div>
             
-            <div className="bg-muted rounded-2xl p-8 md:p-12">
-              <div className="text-center mb-12">
-                <p className="text-xl text-text-primary mb-8">
+            <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg">
+              <div className="max-w-4xl mx-auto space-y-8 text-lg text-text-primary/80 leading-relaxed">
+                <div className="bg-gradient-to-r from-emerald-50 to-blue-50 rounded-xl p-6">
+                  <p className="font-medium text-text-primary">
+                    A one-stop shop for all data needs for utility optimisation, carbon reporting and carbon reduction.
+                  </p>
+                </div>
+                
+                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6">
+                  <p className="font-medium text-text-primary">
+                    We convert disparate datasets from energy, insurance, government and Google, to ensure data makes sense for your use case "out of the box".
+                  </p>
+                </div>
+                
+                <div className="bg-gradient-to-r from-purple-50 to-emerald-50 rounded-xl p-6">
+                  <p className="font-medium text-text-primary">
+                    Our proprietary algorithms offer market leading address to utility meter matching, meaning data may be accessed with address as the only required data input.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="mt-12 text-center mb-8">
+                <p className="text-xl text-text-primary font-medium">
                   Access data via API or our Appstore, being a user interface to search and download data.
                 </p>
               </div>
               
               <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="text-center">
                   <div className="flex items-center justify-center mb-6">
                     <img 
                       src="/lovable-uploads/e9715b5a-9146-45c9-a960-839fc6cbbb48.png" 
@@ -55,21 +64,11 @@ const Products = () => {
                       className="w-16 h-16"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold text-text-primary mb-4 text-center">APIs</h3>
-                  <p className="text-text-primary/70 text-center leading-relaxed">
-                    Direct integration with our comprehensive data platform through robust APIs for seamless data access and automation.
-                  </p>
-                  <div className="mt-6 pt-6 border-t border-gray-100">
-                    <ul className="space-y-2 text-sm text-text-primary/60">
-                      <li>• Real-time data feeds</li>
-                      <li>• Custom integrations</li>
-                      <li>• Scalable endpoints</li>
-                      <li>• Developer-friendly documentation</li>
-                    </ul>
-                  </div>
+                  <h4 className="font-semibold text-text-primary mb-2">APIs</h4>
+                  <p className="text-sm text-text-primary/60">Direct integration for seamless data access</p>
                 </div>
                 
-                <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="text-center">
                   <div className="flex items-center justify-center mb-6">
                     <img 
                       src="/lovable-uploads/d20bc536-9840-4a7b-aef6-326b20807ea7.png" 
@@ -77,18 +76,8 @@ const Products = () => {
                       className="w-16 h-16"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold text-text-primary mb-4 text-center">Appstore</h3>
-                  <p className="text-text-primary/70 text-center leading-relaxed">
-                    User-friendly interface to search, explore, and download the data you need with intuitive navigation and filtering.
-                  </p>
-                  <div className="mt-6 pt-6 border-t border-gray-100">
-                    <ul className="space-y-2 text-sm text-text-primary/60">
-                      <li>• Interactive data exploration</li>
-                      <li>• Advanced search & filters</li>
-                      <li>• One-click downloads</li>
-                      <li>• Visual data previews</li>
-                    </ul>
-                  </div>
+                  <h4 className="font-semibold text-text-primary mb-2">Appstore</h4>
+                  <p className="text-sm text-text-primary/60">User-friendly interface for data exploration</p>
                 </div>
               </div>
             </div>
