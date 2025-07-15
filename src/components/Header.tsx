@@ -19,10 +19,10 @@ export const Header = () => {
             
             <nav className="hidden md:flex items-center space-x-8">
               <Link to="/" className="text-text-primary hover:text-text-secondary transition-colors">Home</Link>
+              <Link to="/about" className="text-text-primary hover:text-text-secondary transition-colors">About</Link>
               <Link to="/products" className="text-text-primary hover:text-text-secondary transition-colors">Products</Link>
               <Link to="/benefits" className="text-text-primary hover:text-text-secondary transition-colors">Benefits</Link>
               <Link to="/sectors" className="text-text-primary hover:text-text-secondary transition-colors">Sectors</Link>
-              <Link to="/about" className="text-text-primary hover:text-text-secondary transition-colors">About</Link>
             </nav>
             
             <div className="flex items-center space-x-4">
@@ -35,12 +35,6 @@ export const Header = () => {
             </div>
           </div>
           
-          {/* Strapline Row */}
-          <div className="mt-4 text-center">
-            <p className="text-lg text-text-primary">
-              Market leading <span className="font-semibold text-text-secondary">data and solutions</span> powering the path to net zero in energy, real estate and finance
-            </p>
-          </div>
         </div>
       </div>
     </header>
