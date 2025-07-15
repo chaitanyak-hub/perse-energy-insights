@@ -10,59 +10,72 @@ const Products = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-slate-50 to-blue-50 py-20">
+      <section className="bg-muted py-20">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Our
-              <span className="bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent"> Products</span>
+            <h1 className="text-5xl lg:text-6xl font-bold text-text-primary leading-tight mb-6">
+              Market leading data and solutions powering the path to net zero in energy, real estate and finance
             </h1>
-            <p className="text-xl text-gray-600 leading-relaxed mb-8">
-              Comprehensive energy data solutions covering gas, electricity, carbon emissions, 
-              building fabric, weather intelligence and grid optimisation for net zero transformation.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gradient-to-r from-emerald-500 to-blue-600 hover:from-emerald-600 hover:to-blue-700 text-white text-lg px-8 py-3">
-                Explore All Solutions
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-2 border-gray-300 hover:border-gray-400">
-                Request Demo
-              </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Data Section */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto text-center mb-12">
+            <h2 className="text-4xl font-bold text-text-primary mb-8">Data</h2>
+            <div className="space-y-6 text-lg text-text-primary/80 leading-relaxed">
+              <p>
+                A one-stop shop for all data needs for utility optimisation, carbon reporting and carbon reduction.
+              </p>
+              <p>
+                We convert disparate datasets from energy, insurance, government and Google, to ensure data makes sense for your use case "out of the box".
+              </p>
+              <p>
+                Our proprietary algorithms offer market leading address to utility meter matching, meaning data may be accessed with address as the only required data input.
+              </p>
+            </div>
+            
+            <div className="mt-12">
+              <p className="text-xl text-text-primary mb-8">
+                Access data via API or our Appstore, being a user interface to search and download data.
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-8 mt-8">
+                <div className="bg-muted p-8 rounded-xl">
+                  <h3 className="text-2xl font-semibold text-text-primary mb-4">APIs</h3>
+                  <p className="text-text-primary/70">
+                    Direct integration with our comprehensive data platform through robust APIs.
+                  </p>
+                </div>
+                
+                <div className="bg-muted p-8 rounded-xl">
+                  <h3 className="text-2xl font-semibold text-text-primary mb-4">Appstore</h3>
+                  <p className="text-text-primary/70">
+                    User-friendly interface to search, explore, and download the data you need.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Products Overview */}
-      <section className="py-16 bg-white">
+      {/* Solutions Section */}
+      <section className="py-16 bg-muted">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Database className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Real-time Data</h3>
-              <p className="text-gray-600">
-                Access live energy data feeds with custom integrations and scalable endpoints.
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <h2 className="text-4xl font-bold text-text-primary mb-8">Solutions</h2>
+            <div className="space-y-6 text-lg text-text-primary/80 leading-relaxed">
+              <p>
+                Our solutions make it easy to understand energy and carbon baselines, benchmark comparisons, as well as personalised recommendations to optimise energy cost and carbon.
               </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Building className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">User-Friendly Interface</h3>
-              <p className="text-gray-600">
-                No-code solutions with intuitive dashboards and pre-built applications.
+              <p>
+                We are integrated with utility providers, demand response providers, as well as powering solutions for installers of low carbon technologies, including solar PV and heat pumps.
               </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Lightbulb className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Smart Optimisation</h3>
-              <p className="text-gray-600">
-                AI-powered recommendations for energy efficiency and carbon reduction.
+              <p>
+                Future proofed legal compliance can be built-in with our ConsentWallet permission management tool, based on the principles of Open Banking and Ofgem's Consumer Consent Solution.
               </p>
             </div>
           </div>
