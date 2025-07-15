@@ -28,21 +28,27 @@ const BenefitsPage = () => {
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-6">
           <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg max-w-6xl mx-auto">
-            <div className="space-y-12">
-              <div className="flex justify-center">
-                <img 
-                  src="/lovable-uploads/f3ab880a-8f51-4da9-857c-efbc69413389.png" 
-                  alt="Some of our customers and partners" 
-                  className="max-w-4xl w-full h-auto rounded-lg"
-                />
+            <div className="space-y-16">
+              <div>
+                <h2 className="text-4xl font-bold text-text-primary mb-8 text-center">Trusted by</h2>
+                <div className="flex justify-center">
+                  <img 
+                    src="/lovable-uploads/f3ab880a-8f51-4da9-857c-efbc69413389.png" 
+                    alt="Some of our customers and partners" 
+                    className="max-w-4xl w-full h-auto rounded-lg"
+                  />
+                </div>
               </div>
               
-              <div className="flex justify-center">
-                <img 
-                  src="/lovable-uploads/13eaddb8-0a1b-4c49-8bb2-ee9a9131196f.png" 
-                  alt="We support" 
-                  className="max-w-4xl w-full h-auto rounded-lg"
-                />
+              <div>
+                <h2 className="text-4xl font-bold text-text-primary mb-8 text-center">Recognised and supported by</h2>
+                <div className="flex justify-center">
+                  <img 
+                    src="/lovable-uploads/13eaddb8-0a1b-4c49-8bb2-ee9a9131196f.png" 
+                    alt="We support" 
+                    className="max-w-4xl w-full h-auto rounded-lg"
+                  />
+                </div>
               </div>
             </div>
           </div>
