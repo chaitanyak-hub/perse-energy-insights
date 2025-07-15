@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Stats } from "@/components/Stats";
 import { Target, Award, Globe, Users } from "lucide-react";
 
 const Home = () => {
@@ -19,6 +20,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Stats Section */}
+      <Stats />
 
       {/* Mission & Vision */}
       <section className="py-20 bg-white">
