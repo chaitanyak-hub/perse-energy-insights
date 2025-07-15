@@ -111,77 +111,140 @@ const Sectors = () => {
         <div className="container mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl lg:text-6xl font-bold text-text-primary leading-tight mb-6">
-              Market leading data and solutions <span className="font-semibold text-text-secondary">powering the path to net zero in energy, real estate and finance</span>
+              Market leading <span className="text-primary font-extrabold">data and solutions</span> powering the path to net zero in energy, real estate and finance
             </h1>
+            <p className="text-xl text-text-primary/70 mt-6">
+              Discover how we're transforming three key sectors with innovative data solutions
+            </p>
           </div>
         </div>
       </section>
 
-
-      {/* Energy Section */}
+      {/* Three Sectors Side by Side */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-text-primary mb-4 text-center">Energy</h2>
-            <p className="text-xl text-text-primary/70 mb-12 text-center">
-              Some of the use cases we support in the energy market
-            </p>
+          <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             
-            <div className="bg-muted rounded-2xl p-8">
-              <ul className="space-y-4 max-w-4xl mx-auto">
-                {["Energy procurement", "Commission reconciliation", "Bill validation", "Analysis and recommendations for pass through costs", "Demand flexibility"].map((useCase, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <CheckCircle className="h-6 w-6 text-emerald-500 mt-0.5 shrink-0" />
-                    <span className="text-lg text-text-primary font-medium">{useCase}</span>
-                  </li>
-                ))}
-              </ul>
+            {/* Energy Sector */}
+            <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-orange-500 to-red-500 p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl">
+              <div className="bg-white rounded-xl p-8 h-full">
+                <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300">
+                  <Zap className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">Energy</h3>
+                <p className="text-gray-600 text-center mb-8 leading-relaxed">
+                  Transform energy operations with comprehensive data solutions and smart grid management
+                </p>
+                
+                <div className="space-y-4">
+                  <h4 className="font-semibold text-gray-900 mb-3">Key Use Cases:</h4>
+                  {["Energy procurement", "Commission reconciliation", "Bill validation", "Analysis and recommendations for pass through costs", "Demand flexibility"].map((useCase, index) => (
+                    <div key={index} className="flex items-start gap-3">
+                      <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 shrink-0" />
+                      <span className="text-sm text-gray-700 font-medium">{useCase}</span>
+                    </div>
+                  ))}
+                </div>
+                
+                <div className="mt-8 pt-6 border-t border-gray-100">
+                  <Button className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white">
+                    Explore Energy Solutions
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            {/* Property Sector */}
+            <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl">
+              <div className="bg-white rounded-xl p-8 h-full">
+                <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300">
+                  <Building className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">Property</h3>
+                <p className="text-gray-600 text-center mb-8 leading-relaxed">
+                  Enhance property value and efficiency with building performance data and carbon reduction solutions
+                </p>
+                
+                <div className="space-y-4">
+                  <h4 className="font-semibold text-gray-900 mb-3">Key Use Cases:</h4>
+                  {["Carbon reporting: location and market based", "Landlord access to data without tenant consent", "GRESB partner", "Identification of measures to reduce carbon", "Portfolio management", "Reconciliation and reporting of outcomes"].map((useCase, index) => (
+                    <div key={index} className="flex items-start gap-3">
+                      <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5 shrink-0" />
+                      <span className="text-sm text-gray-700 font-medium">{useCase}</span>
+                    </div>
+                  ))}
+                </div>
+                
+                <div className="mt-8 pt-6 border-t border-gray-100">
+                  <Button className="w-full bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white">
+                    Explore Property Solutions
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            {/* Finance Sector */}
+            <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-500 to-purple-500 p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl">
+              <div className="bg-white rounded-xl p-8 h-full">
+                <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300">
+                  <CreditCard className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">Finance</h3>
+                <p className="text-gray-600 text-center mb-8 leading-relaxed">
+                  Enable ESG lending and risk assessment with comprehensive carbon and energy analytics
+                </p>
+                
+                <div className="space-y-4">
+                  <h4 className="font-semibold text-gray-900 mb-3">Key Use Cases:</h4>
+                  {["Carbon reporting: location and market based", "Portfolio and individual property assessment", "Customer engagement tools", "Perseus partner", "Reconciliation and reporting of outcomes"].map((useCase, index) => (
+                    <div key={index} className="flex items-start gap-3">
+                      <CheckCircle className="h-5 w-5 text-blue-500 mt-0.5 shrink-0" />
+                      <span className="text-sm text-gray-700 font-medium">{useCase}</span>
+                    </div>
+                  ))}
+                </div>
+                
+                <div className="mt-8 pt-6 border-t border-gray-100">
+                  <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white">
+                    Explore Finance Solutions
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Property Section */}
+      {/* Statistics Section */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-text-primary mb-4 text-center">Property</h2>
-            <p className="text-xl text-text-primary/70 mb-12 text-center">
-              Some of the use cases we support in the property market
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-text-primary mb-4">Proven Impact Across Sectors</h2>
+            <p className="text-xl text-text-primary/70 max-w-3xl mx-auto">
+              See how our data solutions are driving transformation across all three sectors
             </p>
-            
-            <div className="bg-background rounded-2xl p-8">
-              <ul className="space-y-4 max-w-4xl mx-auto">
-                {["Carbon reporting: location and market based", "Landlord access to data without tenant consent", "GRESB partner", "Identification of measures to reduce carbon with personalised payback calculations without the need for a site visit", "Portfolio management", "Reconciliation and reporting of outcomes post low carbon investments"].map((useCase, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <CheckCircle className="h-6 w-6 text-emerald-500 mt-0.5 shrink-0" />
-                    <span className="text-lg text-text-primary font-medium">{useCase}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
           </div>
-        </div>
-      </section>
-
-      {/* Finance Section */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-text-primary mb-4 text-center">Finance</h2>
-            <p className="text-xl text-text-primary/70 mb-12 text-center">
-              Some of the use cases we support in the finance market
-            </p>
+          
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="text-center bg-white rounded-xl p-8 shadow-lg">
+              <div className="text-4xl font-bold text-orange-600 mb-2">500+</div>
+              <div className="text-gray-600 font-medium">Energy Companies</div>
+              <div className="text-sm text-gray-500 mt-2">Using our procurement solutions</div>
+            </div>
             
-            <div className="bg-muted rounded-2xl p-8">
-              <ul className="space-y-4 max-w-4xl mx-auto">
-                {["Carbon reporting: location and market based", "Portfolio and individual property assessment of green loan opportunities", "Customer engagement tools: residential, SME and commercial", "Perseus partner", "Reconciliation and reporting of outcomes post finance"].map((useCase, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <CheckCircle className="h-6 w-6 text-emerald-500 mt-0.5 shrink-0" />
-                    <span className="text-lg text-text-primary font-medium">{useCase}</span>
-                  </li>
-                ))}
-              </ul>
+            <div className="text-center bg-white rounded-xl p-8 shadow-lg">
+              <div className="text-4xl font-bold text-emerald-600 mb-2">10M+</div>
+              <div className="text-gray-600 font-medium">Properties Analysed</div>
+              <div className="text-sm text-gray-500 mt-2">For carbon reduction opportunities</div>
+            </div>
+            
+            <div className="text-center bg-white rounded-xl p-8 shadow-lg">
+              <div className="text-4xl font-bold text-blue-600 mb-2">£2B+</div>
+              <div className="text-gray-600 font-medium">Green Finance Enabled</div>
+              <div className="text-sm text-gray-500 mt-2">Through ESG data insights</div>
             </div>
           </div>
         </div>
