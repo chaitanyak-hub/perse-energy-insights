@@ -17,7 +17,7 @@ export const ProductShowcase = () => {
       ],
       gradient: "from-blue-500 to-blue-600",
       image: "/lovable-uploads/da00d67f-7551-49b4-ab73-e9d812d9f2ba.png",
-      url: "https://api.perse.io"
+      url: "https://apidocs.perse.io/"
     },
     {
       title: "Appstore",
@@ -32,7 +32,7 @@ export const ProductShowcase = () => {
       ],
       gradient: "from-emerald-500 to-emerald-600",
       image: "/lovable-uploads/4c174d27-94a8-4d03-8fcf-bb83f2a1dba9.png",
-      url: "https://appstore.perse.io"
+      url: "https://apps.perse.io/perse/home"
     },
     {
       title: "Optimise",
@@ -47,7 +47,7 @@ export const ProductShowcase = () => {
       ],
       gradient: "from-cyan-500 to-cyan-600",
       image: "/lovable-uploads/3ba57e9e-95ed-4024-9da1-28e4874276a8.png",
-      url: "https://optimise.perse.io"
+      url: "https://energyhelp.perse.io/home"
     },
     {
       title: "Energy procurement",
@@ -62,7 +62,7 @@ export const ProductShowcase = () => {
       ],
       gradient: "from-orange-500 to-orange-600",
       image: "/lovable-uploads/f4800111-84b4-499f-bcad-60ad33830ca0.png",
-      url: "https://switching.perse.io"
+      url: "https://www.comparethemarket.com/energy"
     },
     {
       title: "DSR",
@@ -92,7 +92,7 @@ export const ProductShowcase = () => {
       ],
       gradient: "from-teal-500 to-teal-600",
       image: "/lovable-uploads/5cfd7cd6-06c3-4c5f-aeac-9cc3159d9bf3.png",
-      url: "https://consentwallet.perse.io"
+      url: "https://opendata.energy/landing"
     }
   ];
 
