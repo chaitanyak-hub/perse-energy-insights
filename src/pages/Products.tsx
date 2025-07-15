@@ -56,7 +56,7 @@ const Products = () => {
               </div>
               
               <div className="grid md:grid-cols-2 gap-8">
-                <div className="text-center">
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 text-center">
                   <div className="flex items-center justify-center mb-6">
                     <img 
                       src="/lovable-uploads/e9715b5a-9146-45c9-a960-839fc6cbbb48.png" 
@@ -64,11 +64,21 @@ const Products = () => {
                       className="w-16 h-16"
                     />
                   </div>
-                  <h4 className="font-semibold text-text-primary mb-2">APIs</h4>
-                  <p className="text-sm text-text-primary/60">Direct integration for seamless data access</p>
+                  <h4 className="text-xl font-semibold text-text-primary mb-4">APIs</h4>
+                  <p className="text-text-primary/70 mb-4 leading-relaxed">
+                    Direct integration with our comprehensive data platform through robust APIs for seamless data access and automation.
+                  </p>
+                  <div className="text-left">
+                    <ul className="space-y-2 text-sm text-text-primary/60">
+                      <li>• Real-time data feeds</li>
+                      <li>• Custom integrations</li>
+                      <li>• Scalable endpoints</li>
+                      <li>• Developer-friendly documentation</li>
+                    </ul>
+                  </div>
                 </div>
                 
-                <div className="text-center">
+                <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl p-6 text-center">
                   <div className="flex items-center justify-center mb-6">
                     <img 
                       src="/lovable-uploads/d20bc536-9840-4a7b-aef6-326b20807ea7.png" 
@@ -76,8 +86,18 @@ const Products = () => {
                       className="w-16 h-16"
                     />
                   </div>
-                  <h4 className="font-semibold text-text-primary mb-2">Appstore</h4>
-                  <p className="text-sm text-text-primary/60">User-friendly interface for data exploration</p>
+                  <h4 className="text-xl font-semibold text-text-primary mb-4">Appstore</h4>
+                  <p className="text-text-primary/70 mb-4 leading-relaxed">
+                    User-friendly interface to search, explore, and download the data you need with intuitive navigation and filtering.
+                  </p>
+                  <div className="text-left">
+                    <ul className="space-y-2 text-sm text-text-primary/60">
+                      <li>• Interactive data exploration</li>
+                      <li>• Advanced search & filters</li>
+                      <li>• One-click downloads</li>
+                      <li>• Visual data previews</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
