@@ -59,20 +59,6 @@ export const Benefits = () => {
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-emerald-500 to-blue-600 rounded-2xl p-8 text-center text-white">
-          <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Energy Management?</h3>
-          <p className="text-xl mb-6 opacity-90">
-            Join over 1 million customers who have optimised their energy consumption with Perse.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-emerald-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Start Free Trial
-            </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-emerald-600 transition-colors">
-              Schedule Demo
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );
