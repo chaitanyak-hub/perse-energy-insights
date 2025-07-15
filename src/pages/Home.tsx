@@ -15,7 +15,7 @@ const Home = () => {
               {/* Left side - Text */}
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-text-primary leading-tight">
-                  Market leading data and solutions powering the path to net zero in energy, real estate and finance
+                  Welcome to Perse
                 </h1>
               </div>
               
