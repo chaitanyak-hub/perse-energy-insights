@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom text colors from your palette
+				text: {
+					primary: 'hsl(var(--text-primary))', // Dark Grey #5A5A5A
+					secondary: 'hsl(var(--text-secondary))', // Turquoise #90C7CF
+					muted: 'hsl(var(--text-muted))', // Light Blue-grey #E5EAEE
+					accent: 'hsl(var(--text-accent))', // Light Chartreuse #ECE8B8
+					warm: 'hsl(var(--text-warm))', // Pale Orange #EBB37B
+					soft: 'hsl(var(--text-soft))', // Light Pink #EBD0CE
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
