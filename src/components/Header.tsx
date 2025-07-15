@@ -13,7 +13,7 @@ export const Header = () => {
               <img 
                 src="/lovable-uploads/1f565685-cbbd-4d62-b537-1d2bd438c82e.png" 
                 alt="Perse logo" 
-                className="h-12 w-auto"
+                className="h-16 w-auto"
               />
             </Link>
             
