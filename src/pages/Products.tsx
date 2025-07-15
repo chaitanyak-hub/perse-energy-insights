@@ -133,32 +133,6 @@ const Products = () => {
                   </p>
                 </div>
               </div>
-              
-              <div className="mt-12 grid md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white font-bold text-lg">B</span>
-                  </div>
-                  <h4 className="font-semibold text-text-primary mb-2">Baselines & Benchmarks</h4>
-                  <p className="text-sm text-text-primary/60">Energy and carbon baseline analysis</p>
-                </div>
-                
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white font-bold text-lg">I</span>
-                  </div>
-                  <h4 className="font-semibold text-text-primary mb-2">Integrations</h4>
-                  <p className="text-sm text-text-primary/60">Utility and technology provider connections</p>
-                </div>
-                
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white font-bold text-lg">C</span>
-                  </div>
-                  <h4 className="font-semibold text-text-primary mb-2">Compliance</h4>
-                  <p className="text-sm text-text-primary/60">Future-proof legal compliance tools</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
