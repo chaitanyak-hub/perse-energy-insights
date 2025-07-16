@@ -49,25 +49,19 @@ export const Footer = () => {
           {/* Right side - Legal Links */}
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-sm" style={{color: '#90C7CF'}}>
             <a 
-              href="https://www.perse.energy/terms" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              href="/terms" 
               className="hover:text-white transition-colors"
             >
               Terms and Conditions
             </a>
             <a 
-              href="https://www.perse.energy/sustainability" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              href="/sustainability" 
               className="hover:text-white transition-colors"
             >
               Sustainability Policy
             </a>
             <a 
-              href="https://www.perse.energy/privacy-policy" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              href="/privacy" 
               className="hover:text-white transition-colors"
             >
               Privacy Policy
