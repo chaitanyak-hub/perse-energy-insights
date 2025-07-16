@@ -161,7 +161,7 @@ const Sectors = () => {
                 
                 <div className="space-y-4">
                   <h4 className="font-semibold text-gray-900 mb-3">Key features:</h4>
-                  {["Carbon reporting: location and market based", "Landlord access to data without tenant consent", "GRESB partner", "Identification of measures to reduce carbon", "Portfolio management", "Reconciliation and reporting of outcomes", "pre-integration with ESG software platforms"].map((useCase, index) => (
+                  {["Carbon reporting: location and market based", "Landlord access to data without tenant consent", "GRESB partner", "Identification of measures to reduce carbon", "Portfolio management", "Reconciliation and reporting of outcomes", "Pre-integration with ESG software platforms"].map((useCase, index) => (
                     <div key={index} className="flex items-start gap-3">
                       <CheckCircle className="h-5 w-5 mt-0.5 shrink-0" style={{color: '#90C7CF'}} />
                       <span className="text-sm text-gray-700 font-medium">{useCase}</span>

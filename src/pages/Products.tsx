@@ -264,7 +264,7 @@ const Products = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-                    <span className="text-text-primary/70">Grid balancing services</span>
+                    <span className="text-text-primary/70">Grid flexibility services</span>
                   </div>
                 </div>
                 <div className="text-center">
