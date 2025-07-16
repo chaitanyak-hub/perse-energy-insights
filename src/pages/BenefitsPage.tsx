@@ -26,15 +26,40 @@ const BenefitsPage = () => {
 
       {/* Trusted by */}
       <section className="py-20 bg-foreground">
-        <div className="w-full px-6">
+        <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-background mb-8">Trusted by</h2>
           </div>
-          <div className="flex justify-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
             <img 
-              src="/lovable-uploads/f3ab880a-8f51-4da9-857c-efbc69413389.png" 
-              alt="Some of our customers and partners" 
-              className="w-full h-auto"
+              src="/lovable-uploads/1d834f0d-88f0-47b7-ad2a-2d3c78757943.png" 
+              alt="NESO - National Energy System Operator" 
+              className="h-16 w-auto object-contain filter brightness-0 invert opacity-70 hover:opacity-100 transition-opacity duration-300"
+            />
+            <img 
+              src="/lovable-uploads/1ce5391e-8c5c-46aa-a878-f59e0041b454.png" 
+              alt="Harworth" 
+              className="h-16 w-auto object-contain filter brightness-0 invert opacity-70 hover:opacity-100 transition-opacity duration-300"
+            />
+            <img 
+              src="/lovable-uploads/0f2e95ea-3011-4f87-bc16-f4d1de20d6a5.png" 
+              alt="Compare the Market" 
+              className="h-16 w-auto object-contain filter brightness-0 invert opacity-70 hover:opacity-100 transition-opacity duration-300"
+            />
+            <img 
+              src="/lovable-uploads/44ddc33b-8d97-44e3-a9f8-431769981bcd.png" 
+              alt="GRESB" 
+              className="h-16 w-auto object-contain filter brightness-0 invert opacity-70 hover:opacity-100 transition-opacity duration-300"
+            />
+            <img 
+              src="/lovable-uploads/ca1af8cc-eb1a-482d-b286-726c51415bcd.png" 
+              alt="EDF" 
+              className="h-16 w-auto object-contain filter brightness-0 invert opacity-70 hover:opacity-100 transition-opacity duration-300"
+            />
+            <img 
+              src="/lovable-uploads/5fd066ca-643f-4a08-b869-975b4150587f.png" 
+              alt="IB1 Icebreaker One" 
+              className="h-16 w-auto object-contain filter brightness-0 invert opacity-70 hover:opacity-100 transition-opacity duration-300"
             />
           </div>
         </div>
