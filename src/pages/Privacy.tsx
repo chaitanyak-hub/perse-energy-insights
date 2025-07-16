@@ -8,8 +8,12 @@ const Privacy = () => {
       
       <main className="container mx-auto px-6 py-12">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-foreground mb-6">Privacy Policy</h1>
-          <p className="text-muted-foreground mb-8">Last updated: 27 June 2025</p>
+          <div className="mb-6">
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">This Privacy Notice was last updated</p>
+            <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">June 27, 2025</p>
+          </div>
+          
+          <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
           
           <div className="prose prose-lg max-w-none">
             <section className="mb-8">
