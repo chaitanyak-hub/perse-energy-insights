@@ -19,20 +19,11 @@ export const Header = () => {
             
             <nav className="hidden md:flex items-center space-x-8">
               <Link to="/" className="text-text-primary hover:text-text-secondary transition-colors">Home</Link>
-              <Link to="/about" className="text-text-primary hover:text-text-secondary transition-colors">About</Link>
               <Link to="/products" className="text-text-primary hover:text-text-secondary transition-colors">Products</Link>
               <Link to="/benefits" className="text-text-primary hover:text-text-secondary transition-colors">Benefits</Link>
               <Link to="/sectors" className="text-text-primary hover:text-text-secondary transition-colors">Sectors</Link>
+              <Link to="/about" className="text-text-primary hover:text-text-secondary transition-colors">About</Link>
             </nav>
-            
-            <div className="flex items-center space-x-4">
-              <Button variant="ghost" className="text-text-primary hover:text-text-secondary">
-                Login
-              </Button>
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                Get Started
-              </Button>
-            </div>
           </div>
           
         </div>

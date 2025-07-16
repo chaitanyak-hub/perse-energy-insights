@@ -42,9 +42,6 @@ export const Benefits = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
             Why Choose Perse?
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our platform delivers measurable benefits that drive real business value and environmental impact.
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

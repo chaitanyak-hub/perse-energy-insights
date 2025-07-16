@@ -92,9 +92,6 @@ const Products = () => {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-5xl font-bold text-text-primary mb-6">Our Products</h2>
-              <p className="text-xl text-text-primary/70 max-w-3xl mx-auto">
-                Explore our comprehensive suite of energy data and solution products designed to power your net zero journey
-              </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -130,7 +127,7 @@ const Products = () => {
                 </div>
                 <div className="text-center">
                   <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
-                    Visit Application <ArrowRight className="ml-2 h-4 w-4" />
+                    Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
               </div>
@@ -167,7 +164,7 @@ const Products = () => {
                 </div>
                 <div className="text-center">
                   <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">
-                    Visit Application <ArrowRight className="ml-2 h-4 w-4" />
+                    Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
               </div>
@@ -202,7 +199,7 @@ const Products = () => {
                 </div>
                 <div className="text-center">
                   <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white">
-                    Visit Application <ArrowRight className="ml-2 h-4 w-4" />
+                    Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
               </div>
@@ -237,7 +234,7 @@ const Products = () => {
                 </div>
                 <div className="text-center">
                   <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white">
-                    Visit Application <ArrowRight className="ml-2 h-4 w-4" />
+                    Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
               </div>
@@ -252,7 +249,7 @@ const Products = () => {
                     <span className="text-white font-bold text-2xl">D</span>
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold text-text-primary mb-4 text-center">DSR</h3>
+                <h3 className="text-2xl font-bold text-text-primary mb-4 text-center">Flex</h3>
                 <p className="text-text-primary/70 mb-6 text-center text-lg">
                   Smart energy management and demand response services for grid balancing
                 </p>
@@ -272,7 +269,7 @@ const Products = () => {
                 </div>
                 <div className="text-center">
                   <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
-                    Visit Application <ArrowRight className="ml-2 h-4 w-4" />
+                    Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
               </div>
@@ -307,7 +304,7 @@ const Products = () => {
                 </div>
                 <div className="text-center">
                   <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
-                    Visit Application <ArrowRight className="ml-2 h-4 w-4" />
+                    Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
               </div>

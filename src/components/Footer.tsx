@@ -7,12 +7,16 @@ export const Footer = () => {
           {/* Left side - Logo and Contact Info */}
           <div className="flex flex-col space-y-4">
             {/* Logo */}
-            <div className="text-xl font-bold text-teal-400">
-              perse
+            <div className="flex items-center">
+              <img 
+                src="/lovable-uploads/1f565685-cbbd-4d62-b537-1d2bd438c82e.png" 
+                alt="Perse logo" 
+                className="h-12 w-auto"
+              />
             </div>
             
             {/* Contact Information */}
-            <div className="space-y-2 text-sm text-teal-400">
+            <div className="space-y-2 text-sm" style={{color: '#90C7CF'}}>
               <div className="flex items-center space-x-2">
                 <span>📞</span>
                 <span>020 4538 3431</span>
@@ -43,7 +47,7 @@ export const Footer = () => {
           </div>
 
           {/* Right side - Legal Links */}
-          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-sm text-teal-400">
+          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-sm" style={{color: '#90C7CF'}}>
             <a 
               href="https://www.perse.energy/terms" 
               target="_blank" 
