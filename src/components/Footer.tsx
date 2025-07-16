@@ -1,7 +1,7 @@
 
 export const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-text-soft text-foreground py-8">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-6 md:space-y-0">
           {/* Left side - Logo and Contact Info */}
