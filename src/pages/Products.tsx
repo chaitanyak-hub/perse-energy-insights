@@ -207,7 +207,7 @@ const Products = () => {
               {/* Energy procurement Product Card */}
               <div 
                 className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-orange-200"
-                onClick={() => window.open("https://www.comparethemarket.com/energy", '_blank')}
+                onClick={() => window.open("https://www.thelabrador.co.uk/", '_blank')}
               >
                 <div className="flex items-center justify-center mb-6">
                   <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center">
