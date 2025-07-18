@@ -2,6 +2,16 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Stats, StatItem } from "@/components/Stats";
 import databaseAnimation from "@/assets/database-table.gif";
+import ib1Logo from "@/assets/logos/ib1-logo.png";
+import edfLogo from "@/assets/logos/edf-logo.png";
+import gresbLogo from "@/assets/logos/gresb-logo.png";
+import compareTheMarketLogo from "@/assets/logos/compare-the-market-logo.png";
+import harworthLogo from "@/assets/logos/harworth-logo.png";
+import nesoLogo from "@/assets/logos/neso-logo.png";
+import googleLogo from "@/assets/logos/google-logo.png";
+import unGlobalCompactLogo from "@/assets/logos/un-global-compact-logo.png";
+import reaLogo from "@/assets/logos/rea-logo.jpg";
+import be100Logo from "@/assets/logos/be100-logo.png";
 
 const Home = () => {
   return (
@@ -172,6 +182,58 @@ const Home = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Customers and Partners Section */}
+      <section className="py-12 sm:py-16 lg:py-20 bg-[hsl(var(--perse-pale-orange))]">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-6xl mx-auto text-center">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-12">
+              Market leading data and solutions powering the path to net zero in energy, real estate and finance
+            </h2>
+            
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center mb-8">
+              <img src={ib1Logo} alt="IB1 Icebreaker One" className="h-12 object-contain filter brightness-0 invert" />
+              <img src={edfLogo} alt="EDF" className="h-12 object-contain filter brightness-0 invert" />
+              <img src={gresbLogo} alt="GRESB" className="h-12 object-contain filter brightness-0 invert" />
+              <img src={compareTheMarketLogo} alt="Compare the Market" className="h-12 object-contain filter brightness-0 invert" />
+              <img src={harworthLogo} alt="Harworth" className="h-12 object-contain filter brightness-0 invert" />
+              <img src={nesoLogo} alt="NESO" className="h-12 object-contain filter brightness-0 invert" />
+            </div>
+            
+            <p className="text-white text-lg">Some of our customers and partners</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Recognition and Support Section */}
+      <section className="py-12 sm:py-16 lg:py-20 bg-[hsl(var(--perse-dark-grey))]">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-6xl mx-auto text-center">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
+              Market leading <span className="text-[hsl(var(--perse-pale-orange))]">data</span> and solutions powering the path to net zero in energy, real estate and finance
+            </h2>
+            
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center mb-8 mt-12">
+              <img src={googleLogo} alt="Google" className="h-12 object-contain" />
+              <div className="h-12 flex items-center">
+                <div className="text-white text-center">
+                  <div className="text-xs text-[hsl(var(--perse-pale-orange))]">Start Up</div>
+                  <div className="text-xs">Energy Transition</div>
+                  <div className="text-xs text-[hsl(var(--perse-pale-orange))]">SET100 Start-up 2025</div>
+                </div>
+              </div>
+              <img src={unGlobalCompactLogo} alt="UN Global Compact" className="h-12 object-contain filter brightness-0 invert" />
+              <div className="h-12 w-12 rounded-full border-2 border-green-400 flex items-center justify-center">
+                <div className="text-green-400 text-xs">ECO</div>
+              </div>
+              <img src={reaLogo} alt="REA" className="h-12 object-contain" />
+              <img src={be100Logo} alt="BE100" className="h-12 object-contain filter brightness-0 invert" />
+            </div>
+            
+            <p className="text-white text-lg">Recognised by and supporting</p>
           </div>
         </div>
       </section>
