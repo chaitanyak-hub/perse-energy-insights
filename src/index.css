@@ -43,6 +43,14 @@
     --text-warm: 24 45% 68%; /* Pale Orange #EBB37B */
     --text-soft: 7 24% 87%; /* Light Pink #EBD0CE */
 
+    /* Perse Brand Colors */
+    --perse-dark-grey: 0 0% 35%; /* #5A5A5A */
+    --perse-turquoise: 189 27% 69%; /* #90C7CF */
+    --perse-light-blue-grey: 210 28% 91%; /* #E5EAEE */
+    --perse-light-chartreuse: 54 48% 81%; /* #ECE8B8 */
+    --perse-pale-orange: 24 45% 68%; /* #EBB37B */
+    --perse-light-pink: 7 24% 87%; /* #EBD0CE */
+
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 0 0% 35%;
     --sidebar-primary: 189 27% 69%;
@@ -89,6 +97,14 @@
     --text-accent: 54 48% 81%; /* Light Chartreuse */
     --text-warm: 24 45% 68%; /* Pale Orange */
     --text-soft: 7 24% 87%; /* Light Pink */
+
+    /* Perse Brand Colors - Dark mode variants */
+    --perse-dark-grey: 0 0% 20%;
+    --perse-turquoise: 189 27% 69%;
+    --perse-light-blue-grey: 210 20% 30%;
+    --perse-light-chartreuse: 54 48% 70%;
+    --perse-pale-orange: 24 45% 60%;
+    --perse-light-pink: 7 24% 75%;
 
     --sidebar-background: 0 0% 8%;
     --sidebar-foreground: 0 0% 95%;

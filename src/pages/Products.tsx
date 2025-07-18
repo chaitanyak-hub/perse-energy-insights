@@ -39,7 +39,7 @@ const Products = () => {
                   <ul className="space-y-3 text-sm text-text-primary/70">
                     <li className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Convert disparate datasets from energy, insurance, government and Google</span>
+                      <span>Conversion of disparate datasets from energy, insurance, government and Google</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -97,7 +97,7 @@ const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* APIs Product Card */}
               <div 
-                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-blue-200"
+                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-[hsl(var(--perse-light-blue-grey))]"
                 onClick={() => window.open("https://apidocs.perse.io/", '_blank')}
               >
                 <div className="flex items-center justify-center mb-6">
@@ -113,20 +113,20 @@ const Products = () => {
                 </p>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-turquoise))] rounded-full"></div>
                     <span className="text-text-primary/70">Real-time data feeds</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-turquoise))] rounded-full"></div>
                     <span className="text-text-primary/70">Custom integrations</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-turquoise))] rounded-full"></div>
                     <span className="text-text-primary/70">Scalable endpoints</span>
                   </div>
                 </div>
                 <div className="text-center">
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+                  <Button className="w-full bg-[hsl(var(--perse-turquoise))] hover:bg-[hsl(var(--perse-turquoise)/0.9)] text-white">
                     Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
@@ -134,7 +134,7 @@ const Products = () => {
               
               {/* Appstore Product Card */}
               <div 
-                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-emerald-200"
+                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-[hsl(var(--perse-light-chartreuse))]"
                 onClick={() => window.open("https://apps.perse.io/perse/home", '_blank')}
               >
                 <div className="flex items-center justify-center mb-6">
@@ -150,20 +150,20 @@ const Products = () => {
                 </p>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-emerald-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-light-chartreuse))] rounded-full"></div>
                     <span className="text-text-primary/70">User-friendly interface</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-emerald-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-light-chartreuse))] rounded-full"></div>
                     <span className="text-text-primary/70">Data visualisation</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-emerald-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-light-chartreuse))] rounded-full"></div>
                     <span className="text-text-primary/70">No-code solutions</span>
                   </div>
                 </div>
                 <div className="text-center">
-                  <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">
+                  <Button className="w-full bg-[hsl(var(--perse-light-chartreuse))] hover:bg-[hsl(var(--perse-light-chartreuse)/0.9)] text-[hsl(var(--perse-dark-grey))]">
                     Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
@@ -171,11 +171,11 @@ const Products = () => {
 
               {/* Optimise Product Card */}
               <div 
-                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-cyan-200"
+                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-[hsl(var(--perse-pale-orange))]"
                 onClick={() => window.open("https://energyhelp.perse.io/home", '_blank')}
               >
                 <div className="flex items-center justify-center mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-2xl flex items-center justify-center">
+                  <div className="w-16 h-16 bg-[hsl(var(--perse-pale-orange))] rounded-2xl flex items-center justify-center">
                     <span className="text-white font-bold text-2xl">O</span>
                   </div>
                 </div>
@@ -185,20 +185,20 @@ const Products = () => {
                 </p>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-cyan-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-pale-orange))] rounded-full"></div>
                     <span className="text-text-primary/70">Address as only data input</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-cyan-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-pale-orange))] rounded-full"></div>
                     <span className="text-text-primary/70">ROI calculations</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-cyan-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-pale-orange))] rounded-full"></div>
                     <span className="text-text-primary/70">No site visit needed</span>
                   </div>
                 </div>
                 <div className="text-center">
-                  <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white">
+                  <Button className="w-full bg-[hsl(var(--perse-pale-orange))] hover:bg-[hsl(var(--perse-pale-orange)/0.9)] text-white">
                     Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
@@ -206,12 +206,12 @@ const Products = () => {
               
               {/* Energy procurement Product Card */}
               <div 
-                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-orange-200"
+                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-[hsl(var(--perse-light-pink))]"
                 onClick={() => window.open("https://www.thelabrador.co.uk/", '_blank')}
               >
                 <div className="flex items-center justify-center mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center">
-                    <span className="text-white font-bold text-2xl">E</span>
+                  <div className="w-16 h-16 bg-[hsl(var(--perse-light-pink))] rounded-2xl flex items-center justify-center">
+                    <span className="text-[hsl(var(--perse-dark-grey))] font-bold text-2xl">E</span>
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold text-text-primary mb-4 text-center">Energy Procurement</h3>
@@ -220,20 +220,20 @@ const Products = () => {
                 </p>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-                    <span className="text-text-primary/70">Whole market comparison</span>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-light-pink))] rounded-full"></div>
+                    <span className="text-text-primary/70">Whole of market comparison</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-light-pink))] rounded-full"></div>
                     <span className="text-text-primary/70">Automated switching</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-light-pink))] rounded-full"></div>
                     <span className="text-text-primary/70">Business & residential</span>
                   </div>
                 </div>
                 <div className="text-center">
-                  <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white">
+                  <Button className="w-full bg-[hsl(var(--perse-light-pink))] hover:bg-[hsl(var(--perse-light-pink)/0.9)] text-[hsl(var(--perse-dark-grey))]">
                     Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
@@ -241,11 +241,11 @@ const Products = () => {
               
               {/* DSR Product Card */}
               <div 
-                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-purple-200"
+                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-[hsl(var(--perse-dark-grey))]"
                 onClick={() => window.open("https://flexibility.perse.io", '_blank')}
               >
                 <div className="flex items-center justify-center mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center">
+                  <div className="w-16 h-16 bg-[hsl(var(--perse-dark-grey))] rounded-2xl flex items-center justify-center">
                     <span className="text-white font-bold text-2xl">D</span>
                   </div>
                 </div>
@@ -255,20 +255,20 @@ const Products = () => {
                 </p>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-dark-grey))] rounded-full"></div>
                     <span className="text-text-primary/70">Free revenue generation</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-dark-grey))] rounded-full"></div>
                     <span className="text-text-primary/70">Automated bids</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-dark-grey))] rounded-full"></div>
                     <span className="text-text-primary/70">Grid flexibility services</span>
                   </div>
                 </div>
                 <div className="text-center">
-                  <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
+                  <Button className="w-full bg-[hsl(var(--perse-dark-grey))] hover:bg-[hsl(var(--perse-dark-grey)/0.9)] text-white">
                     Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
@@ -276,12 +276,12 @@ const Products = () => {
               
               {/* ConsentWallet Product Card */}
               <div 
-                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-teal-200"
+                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-[hsl(var(--perse-light-blue-grey))]"
                 onClick={() => window.open("https://opendata.energy/landing", '_blank')}
               >
                 <div className="flex items-center justify-center mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-r from-teal-500 to-teal-600 rounded-2xl flex items-center justify-center">
-                    <span className="text-white font-bold text-2xl">C</span>
+                  <div className="w-16 h-16 bg-[hsl(var(--perse-light-blue-grey))] rounded-2xl flex items-center justify-center">
+                    <span className="text-[hsl(var(--perse-dark-grey))] font-bold text-2xl">C</span>
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold text-text-primary mb-4 text-center">ConsentWallet</h3>
@@ -290,20 +290,20 @@ const Products = () => {
                 </p>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-teal-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-light-blue-grey))] rounded-full"></div>
                     <span className="text-text-primary/70">Open banking level security</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-teal-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-light-blue-grey))] rounded-full"></div>
                     <span className="text-text-primary/70">Consent management</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-teal-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-[hsl(var(--perse-light-blue-grey))] rounded-full"></div>
                     <span className="text-text-primary/70">Secure data sharing</span>
                   </div>
                 </div>
                 <div className="text-center">
-                  <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
+                  <Button className="w-full bg-[hsl(var(--perse-light-blue-grey))] hover:bg-[hsl(var(--perse-light-blue-grey)/0.9)] text-[hsl(var(--perse-dark-grey))]">
                     Visit <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
