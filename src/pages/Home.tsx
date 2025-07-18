@@ -177,10 +177,10 @@ const Home = () => {
       </section>
 
       {/* Customers and Partners Section */}
-      <section className="py-12 sm:py-16 lg:py-20">
+      <section>
         <div className="w-full">
           <div className="text-center">
-            <div className="mb-8">
+            <div>
               <img 
                 src="/lovable-uploads/53cae4c8-f1fb-4c9f-bcaa-26cefb2372a7.png" 
                 alt="Customer and partner logos: IB1, EDF, GRESB, Compare the Market, Harworth, NESO" 
@@ -192,10 +192,10 @@ const Home = () => {
       </section>
 
       {/* Recognition and Support Section */}
-      <section className="py-12 sm:py-16 lg:py-20">
+      <section>
         <div className="w-full">
           <div className="text-center">
-            <div className="mb-8">
+            <div>
               <img 
                 src="/lovable-uploads/6f74b099-3cdc-4b35-919e-660215b3ecf5.png" 
                 alt="Recognition and support logos: Google, Energy Transition, UN Global Compact, REA, BE100" 
