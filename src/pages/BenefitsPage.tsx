@@ -25,34 +25,34 @@ const BenefitsPage = () => {
       <Benefits />
 
       {/* Trusted by */}
-      <section className="py-20 bg-foreground">
-        <div className="w-full px-6">
+      <section className="py-20 bg-[hsl(var(--perse-light-blue-grey))]">
+        <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-background mb-8">Trusted by</h2>
+            <h2 className="text-4xl font-bold text-[hsl(var(--perse-dark-grey))] mb-8">Trusted by</h2>
           </div>
-          <div className="flex justify-center">
-            <img 
-              src="/lovable-uploads/f3ab880a-8f51-4da9-857c-efbc69413389.png" 
-              alt="Some of our customers and partners" 
-              className="w-full h-auto"
-            />
-          </div>
+        </div>
+        <div className="w-full">
+          <img 
+            src="/lovable-uploads/f3ab880a-8f51-4da9-857c-efbc69413389.png" 
+            alt="Some of our customers and partners" 
+            className="w-full h-auto object-cover"
+          />
         </div>
       </section>
 
       {/* Recognised and supported by */}
-      <section className="py-20 bg-foreground">
-        <div className="w-full px-6">
+      <section className="py-20 bg-[hsl(var(--perse-turquoise))]">
+        <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-background mb-8">Recognised and supported by</h2>
+            <h2 className="text-4xl font-bold text-white mb-8">Recognised and supported by</h2>
           </div>
-          <div className="flex justify-center">
-            <img 
-              src="/lovable-uploads/13eaddb8-0a1b-4c49-8bb2-ee9a9131196f.png" 
-              alt="We support" 
-              className="w-full h-auto"
-            />
-          </div>
+        </div>
+        <div className="w-full">
+          <img 
+            src="/lovable-uploads/13eaddb8-0a1b-4c49-8bb2-ee9a9131196f.png" 
+            alt="We support" 
+            className="w-full h-auto object-cover"
+          />
         </div>
       </section>
 
