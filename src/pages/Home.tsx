@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Stats, StatItem } from "@/components/Stats";
+import databaseAnimation from "@/assets/database-table.gif";
 
 const Home = () => {
   return (
@@ -54,6 +55,24 @@ const Home = () => {
                   className="w-48 sm:w-56 lg:w-64 h-auto"
                 />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Database Animation Section */}
+      <section className="py-12 sm:py-16 lg:py-20 bg-muted">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-text-primary leading-tight mb-8">
+              Powerful Data Processing
+            </h2>
+            <div className="flex justify-center">
+              <img 
+                src={databaseAnimation} 
+                alt="Database processing animation" 
+                className="w-full max-w-2xl h-auto rounded-xl shadow-lg"
+              />
             </div>
           </div>
         </div>
