@@ -1,7 +1,13 @@
 
-export const Footer = () => {
+interface FooterProps {
+  variant?: 'default' | 'light';
+}
+
+export const Footer = ({ variant = 'default' }: FooterProps) => {
+  const bgColor = variant === 'light' ? 'bg-[hsl(var(--perse-turquoise))]' : 'bg-[hsl(var(--perse-dark-grey))]';
+  
   return (
-    <footer className="bg-[hsl(var(--perse-dark-grey))] text-background py-8">
+    <footer className={`${bgColor} text-background py-8`}>
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row justify-between items-start space-y-6 lg:space-y-0 lg:space-x-8">
           {/* Left side - Logo and Contact Info */}

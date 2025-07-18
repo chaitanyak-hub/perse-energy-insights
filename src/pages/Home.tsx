@@ -220,7 +220,7 @@ const Home = () => {
         </div>
       </section>
 
-      <Footer />
+      <Footer variant="light" />
     </div>
   );
 };
