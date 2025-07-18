@@ -3,7 +3,7 @@ export const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-8">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-6 md:space-y-0">
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center space-y-6 lg:space-y-0 lg:space-x-8">
           {/* Left side - Logo and Contact Info */}
           <div className="flex flex-col space-y-4">
             {/* Logo */}
@@ -44,6 +44,17 @@ export const Footer = () => {
                 <span>Our Location</span>
               </a>
             </div>
+          </div>
+
+          {/* Center - ISO27001 Certificate */}
+          <div className="flex flex-col items-center space-y-2">
+            <h3 className="text-lg font-semibold text-white">ISO27001</h3>
+            <img 
+              src="/lovable-uploads/cfc215c8-6524-43c6-8bac-b41f60278892.png" 
+              alt="ISO27001 Certificate"
+              className="h-32 w-auto cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => window.open('/lovable-uploads/cfc215c8-6524-43c6-8bac-b41f60278892.png', '_blank')}
+            />
           </div>
 
           {/* Right side - Legal Links */}
