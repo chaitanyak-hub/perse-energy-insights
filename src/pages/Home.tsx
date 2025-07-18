@@ -8,13 +8,13 @@ const Home = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="py-20 bg-muted">
-        <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto bg-muted rounded-2xl p-8 md:p-12">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+      <section className="py-12 sm:py-16 lg:py-20 bg-muted">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-6xl mx-auto bg-muted rounded-2xl p-6 sm:p-8 md:p-12">
+            <div className="grid md:grid-cols-2 gap-6 lg:gap-8 items-center">
               {/* Left side - Text */}
               <div>
-                <h1 className="text-4xl md:text-5xl font-bold text-text-primary leading-tight">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-text-primary leading-tight">
                   Market leading data and solutions powering the path to net zero in energy, real estate and finance
                 </h1>
               </div>
@@ -32,16 +32,16 @@ const Home = () => {
       </section>
 
       {/* Data Solutions Section */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-20 bg-background">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
               {/* Left side - Text */}
               <div>
-                <h2 className="text-4xl md:text-5xl font-bold text-text-primary leading-tight mb-6">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-text-primary leading-tight mb-4 sm:mb-6">
                   Market leading <span className="text-primary">data</span> and solutions powering the path to net zero in energy, real estate and finance
                 </h2>
-                <p className="text-lg text-primary font-medium">
+                <p className="text-base sm:text-lg text-primary font-medium">
                   gas, electricity, location and market based carbon, pricing, building fabric, EPC, weather, satellite, grid
                 </p>
               </div>
@@ -51,7 +51,7 @@ const Home = () => {
                 <img 
                   src="/lovable-uploads/504393bb-9691-457f-ad92-2469dcae1acb.png" 
                   alt="Data solutions cube icon" 
-                  className="w-64 h-auto"
+                  className="w-48 sm:w-56 lg:w-64 h-auto"
                 />
               </div>
             </div>

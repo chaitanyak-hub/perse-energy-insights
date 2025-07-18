@@ -10,10 +10,10 @@ const BenefitsPage = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="bg-muted py-20">
-        <div className="container mx-auto px-6">
+      <section className="bg-muted py-12 sm:py-16 lg:py-20">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl lg:text-6xl font-bold text-text-primary leading-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-text-primary leading-tight mb-6">
               <span className="text-primary font-extrabold">Market leading</span> data and solutions powering the path to net zero in energy, real estate and finance
             </h1>
           </div>
@@ -25,10 +25,10 @@ const BenefitsPage = () => {
       <Benefits />
 
       {/* Trusted by */}
-      <section className="py-20 bg-[hsl(var(--perse-light-blue-grey))]">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[hsl(var(--perse-dark-grey))] mb-8">Trusted by</h2>
+      <section className="py-12 sm:py-16 lg:py-20 bg-[hsl(var(--perse-light-blue-grey))]">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[hsl(var(--perse-dark-grey))] mb-4 sm:mb-6 lg:mb-8">Trusted by</h2>
           </div>
         </div>
         <div className="w-full">
@@ -41,10 +41,10 @@ const BenefitsPage = () => {
       </section>
 
       {/* Recognised and supported by */}
-      <section className="py-20 bg-[hsl(var(--perse-turquoise))]">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-white mb-8">Recognised and supported by</h2>
+      <section className="py-12 sm:py-16 lg:py-20 bg-[hsl(var(--perse-turquoise))]">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4 sm:mb-6 lg:mb-8">Recognised and supported by</h2>
           </div>
         </div>
         <div className="w-full">

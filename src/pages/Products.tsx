@@ -9,10 +9,10 @@ const Products = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="bg-muted py-20">
-        <div className="container mx-auto px-6">
+      <section className="bg-muted py-12 sm:py-16 lg:py-20">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl lg:text-6xl font-bold text-text-primary leading-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-text-primary leading-tight mb-6">
               Market leading <span className="text-primary font-extrabold">data and solutions</span> powering the path to net zero in energy, real estate and finance
             </h1>
           </div>
@@ -20,15 +20,15 @@ const Products = () => {
       </section>
 
       {/* Data and Solutions Section */}
-      <section className="py-12 bg-background">
-        <div className="container mx-auto px-6">
+      <section className="py-8 sm:py-12 bg-background">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-8">
+            <div className="grid lg:grid-cols-2 gap-6 lg:gap-8">
               
               {/* Data Section */}
               <div>
-                <div className="text-center mb-8">
-                  <h2 className="text-3xl font-bold text-text-primary mb-4">Data</h2>
+                <div className="text-center mb-6 lg:mb-8">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-text-primary mb-4">Data</h2>
                 </div>
                 
                 <div className="bg-white rounded-xl p-6 shadow-sm h-full">
@@ -55,8 +55,8 @@ const Products = () => {
 
               {/* Solutions Section */}
               <div>
-                <div className="text-center mb-8">
-                  <h2 className="text-3xl font-bold text-text-primary mb-4">Solutions</h2>
+                <div className="text-center mb-6 lg:mb-8">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-text-primary mb-4">Solutions</h2>
                 </div>
                 
                 <div className="bg-white rounded-xl p-6 shadow-sm h-full">
@@ -87,28 +87,28 @@ const Products = () => {
       </section>
 
       {/* Products Section */}
-      <section className="py-20 bg-muted">
-        <div className="container mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-20 bg-muted">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold text-text-primary mb-6">Our Products</h2>
+            <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-text-primary mb-4 sm:mb-6">Our Products</h2>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
               {/* APIs Product Card */}
               <div 
-                className="bg-white rounded-2xl p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-[hsl(var(--perse-light-blue-grey))]"
+                className="bg-white rounded-2xl p-6 sm:p-8 cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-[hsl(var(--perse-light-blue-grey))]"
                 onClick={() => window.open("https://apidocs.perse.io/", '_blank')}
               >
-                <div className="flex items-center justify-center mb-6">
+                <div className="flex items-center justify-center mb-4 sm:mb-6">
                   <img 
                     src="/lovable-uploads/271cff7e-f44e-4c9b-9bc5-fbb94ec8a99a.png" 
                     alt="APIs" 
-                    className="w-24 h-24 object-contain"
+                    className="w-20 h-20 sm:w-24 sm:h-24 object-contain"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-text-primary mb-4 text-center">APIs</h3>
-                <p className="text-text-primary/70 mb-6 text-center text-lg">
+                <h3 className="text-xl sm:text-2xl font-bold text-text-primary mb-3 sm:mb-4 text-center">APIs</h3>
+                <p className="text-text-primary/70 mb-4 sm:mb-6 text-center text-base sm:text-lg">
                   Raw data or analysis to plugin to your system or third party software provider
                 </p>
                 <div className="space-y-3 mb-6">

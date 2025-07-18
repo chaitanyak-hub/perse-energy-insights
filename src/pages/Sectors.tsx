@@ -107,13 +107,13 @@ const Sectors = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="bg-muted py-20">
-        <div className="container mx-auto px-6">
+      <section className="bg-muted py-12 sm:py-16 lg:py-20">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl lg:text-6xl font-bold text-text-primary leading-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-text-primary leading-tight mb-6">
               Market leading data and solutions <span className="text-primary font-extrabold">powering the path to net zero in energy, real estate and finance</span>
             </h1>
-            <p className="text-xl text-text-primary/70 mt-6">
+            <p className="text-base sm:text-lg lg:text-xl text-text-primary/70 mt-4 sm:mt-6">
               Discover how we're transforming three key sectors with innovative data solutions
             </p>
           </div>
@@ -121,18 +121,18 @@ const Sectors = () => {
       </section>
 
       {/* Three Sectors Side by Side */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <section className="py-12 sm:py-16 lg:py-20 bg-background">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto">
             
             {/* Energy Sector */}
-            <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl" style={{background: `hsl(var(--perse-dark-grey))`}}>
-              <div className="bg-white rounded-xl p-8 h-full">
-                <div className="flex items-center justify-center w-16 h-16 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: `hsl(var(--perse-dark-grey))`}}>
-                  <Zap className="h-8 w-8 text-white" />
+            <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl md:col-span-2 lg:col-span-1" style={{background: `hsl(var(--perse-dark-grey))`}}>
+              <div className="bg-white rounded-xl p-6 sm:p-8 h-full">
+                <div className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-xl mb-4 sm:mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: `hsl(var(--perse-dark-grey))`}}>
+                  <Zap className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">Energy</h3>
-                <p className="text-gray-600 text-center mb-8 leading-relaxed">
+                <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-900 mb-3 sm:mb-4">Energy</h3>
+                <p className="text-gray-600 text-center mb-6 sm:mb-8 leading-relaxed text-sm sm:text-base">
                   Transform energy operations with comprehensive data solutions and smart grid management
                 </p>
                 
@@ -150,12 +150,12 @@ const Sectors = () => {
 
             {/* Property Sector */}
             <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl" style={{background: `hsl(var(--perse-turquoise))`}}>
-              <div className="bg-white rounded-xl p-8 h-full">
-                <div className="flex items-center justify-center w-16 h-16 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: `hsl(var(--perse-turquoise))`}}>
-                  <Building className="h-8 w-8 text-white" />
+              <div className="bg-white rounded-xl p-6 sm:p-8 h-full">
+                <div className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-xl mb-4 sm:mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: `hsl(var(--perse-turquoise))`}}>
+                  <Building className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">Property</h3>
-                <p className="text-gray-600 text-center mb-8 leading-relaxed">
+                <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-900 mb-3 sm:mb-4">Property</h3>
+                <p className="text-gray-600 text-center mb-6 sm:mb-8 leading-relaxed text-sm sm:text-base">
                   Enhance property value and efficiency with building performance data and carbon reduction solutions
                 </p>
                 
@@ -172,13 +172,13 @@ const Sectors = () => {
             </div>
 
             {/* Finance Sector */}
-            <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl" style={{background: `hsl(var(--perse-light-blue-grey))`}}>
-              <div className="bg-white rounded-xl p-8 h-full">
-                <div className="flex items-center justify-center w-16 h-16 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: `hsl(var(--perse-light-blue-grey))`}}>
-                  <CreditCard className="h-8 w-8 text-[hsl(var(--perse-dark-grey))]" />
+            <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl md:col-span-2 lg:col-span-1" style={{background: `hsl(var(--perse-light-blue-grey))`}}>
+              <div className="bg-white rounded-xl p-6 sm:p-8 h-full">
+                <div className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-xl mb-4 sm:mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: `hsl(var(--perse-light-blue-grey))`}}>
+                  <CreditCard className="h-6 w-6 sm:h-8 sm:w-8 text-[hsl(var(--perse-dark-grey))]" />
                 </div>
-                <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">Finance</h3>
-                <p className="text-gray-600 text-center mb-8 leading-relaxed">
+                <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-900 mb-3 sm:mb-4">Finance</h3>
+                <p className="text-gray-600 text-center mb-6 sm:mb-8 leading-relaxed text-sm sm:text-base">
                   Enable ESG lending and risk assessment with comprehensive carbon and energy analytics
                 </p>
                 
