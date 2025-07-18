@@ -4,7 +4,7 @@ interface FooterProps {
 }
 
 export const Footer = ({ variant = 'default' }: FooterProps) => {
-  const bgColor = variant === 'light' ? 'bg-white' : 'bg-[hsl(var(--perse-dark-grey))]';
+  const bgColor = variant === 'light' ? 'bg-[hsl(var(--perse-light-pink))]' : 'bg-[hsl(var(--perse-dark-grey))]';
   const textColor = variant === 'light' ? 'text-[hsl(var(--perse-dark-grey))]' : 'text-background';
   
   return (
