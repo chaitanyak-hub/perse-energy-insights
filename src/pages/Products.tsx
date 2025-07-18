@@ -102,7 +102,7 @@ const Products = () => {
               >
                 <div className="flex items-center justify-center mb-6">
                   <img 
-                    src="/lovable-uploads/21780c69-56da-4c42-a6f0-00de11a90422.png" 
+                    src="/lovable-uploads/271cff7e-f44e-4c9b-9bc5-fbb94ec8a99a.png" 
                     alt="APIs" 
                     className="w-24 h-24 object-contain"
                   />
