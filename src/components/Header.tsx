@@ -26,6 +26,7 @@ export const Header = () => {
             <Link to="/benefits" className="text-text-primary hover:text-text-secondary transition-colors">Benefits</Link>
             <Link to="/sectors" className="text-text-primary hover:text-text-secondary transition-colors">Sectors</Link>
             <Link to="/about" className="text-text-primary hover:text-text-secondary transition-colors">About</Link>
+            <Link to="/contact" className="text-text-primary hover:text-text-secondary transition-colors">Contact</Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -80,6 +81,13 @@ export const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
+              </Link>
+              <Link 
+                to="/contact" 
+                className="text-text-primary hover:text-text-secondary transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Contact
               </Link>
             </div>
           </nav>

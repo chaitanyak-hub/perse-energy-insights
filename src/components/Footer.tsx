@@ -3,7 +3,7 @@ export const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-8">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-start space-y-6 md:space-y-0">
+        <div className="flex flex-col lg:flex-row justify-between items-start space-y-6 lg:space-y-0 lg:space-x-8">
           {/* Left side - Logo and Contact Info */}
           <div className="flex flex-col space-y-4">
             {/* Logo */}
@@ -46,40 +46,37 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Right side - ISO27001 and Legal Links */}
-          <div className="flex flex-col space-y-4">
-            {/* ISO27001 Certificate */}
-            <div className="flex flex-col items-center md:items-start space-y-2">
-              <h3 className="text-lg font-semibold text-white">ISO27001</h3>
-              <img 
-                src="/lovable-uploads/cfc215c8-6524-43c6-8bac-b41f60278892.png" 
-                alt="ISO27001 Certificate"
-                className="h-24 w-auto cursor-pointer hover:opacity-80 transition-opacity"
-                onClick={() => window.open('/lovable-uploads/cfc215c8-6524-43c6-8bac-b41f60278892.png', '_blank')}
-              />
-            </div>
-            
-            {/* Legal Links */}
-            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-sm" style={{color: '#90C7CF'}}>
-              <a 
-                href="/terms" 
-                className="hover:text-white transition-colors"
-              >
-                Terms and Conditions
-              </a>
-              <a 
-                href="/sustainability" 
-                className="hover:text-white transition-colors"
-              >
-                Sustainability Policy
-              </a>
-              <a 
-                href="/privacy" 
-                className="hover:text-white transition-colors"
-              >
-                Privacy Policy
-              </a>
-            </div>
+          {/* Center - ISO27001 Certificate */}
+          <div className="flex flex-col items-center lg:items-start space-y-2">
+            <h3 className="text-lg font-semibold text-white">ISO27001</h3>
+            <img 
+              src="/lovable-uploads/cfc215c8-6524-43c6-8bac-b41f60278892.png" 
+              alt="ISO27001 Certificate"
+              className="h-24 w-auto cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => window.open('/lovable-uploads/cfc215c8-6524-43c6-8bac-b41f60278892.png', '_blank')}
+            />
+          </div>
+
+          {/* Right side - Legal Links */}
+          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-sm" style={{color: '#90C7CF'}}>
+            <a 
+              href="/terms" 
+              className="hover:text-white transition-colors"
+            >
+              Terms and Conditions
+            </a>
+            <a 
+              href="/sustainability" 
+              className="hover:text-white transition-colors"
+            >
+              Sustainability Policy
+            </a>
+            <a 
+              href="/privacy" 
+              className="hover:text-white transition-colors"
+            >
+              Privacy Policy
+            </a>
           </div>
         </div>
       </div>
