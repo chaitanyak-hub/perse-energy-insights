@@ -4,10 +4,11 @@ interface FooterProps {
 }
 
 export const Footer = ({ variant = 'default' }: FooterProps) => {
-  const bgColor = variant === 'light' ? 'bg-[hsl(var(--perse-turquoise))]' : 'bg-[hsl(var(--perse-dark-grey))]';
+  const bgColor = variant === 'light' ? 'bg-white' : 'bg-[hsl(var(--perse-dark-grey))]';
+  const textColor = variant === 'light' ? 'text-[hsl(var(--perse-dark-grey))]' : 'text-background';
   
   return (
-    <footer className={`${bgColor} text-background py-8`}>
+    <footer className={`${bgColor} ${textColor} py-8`}>
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row justify-between items-start space-y-6 lg:space-y-0 lg:space-x-8">
           {/* Left side - Logo and Contact Info */}
@@ -22,7 +23,7 @@ export const Footer = ({ variant = 'default' }: FooterProps) => {
             </div>
             
             {/* Contact Information */}
-            <div className="space-y-2 text-sm" style={{color: '#90C7CF'}}>
+            <div className="space-y-2 text-sm text-[hsl(var(--perse-turquoise))]">
               <div className="flex items-center space-x-2">
                 <span>📞</span>
                 <span>020 4538 3431</span>
@@ -35,7 +36,7 @@ export const Footer = ({ variant = 'default' }: FooterProps) => {
                 href="https://www.linkedin.com/company/persetechnology/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2 hover:text-white transition-colors"
+                className="flex items-center space-x-2 hover:text-[hsl(var(--perse-dark-grey))] transition-colors"
               >
                 <span>🔗</span>
                 <span>LinkedIn</span>
@@ -44,7 +45,7 @@ export const Footer = ({ variant = 'default' }: FooterProps) => {
                 href="https://www.google.com/maps/place/Spaces+-+London,+Spaces+Oxford+Street/@51.5161381,-0.1384085,17z/data=!3m2!4b1!5s0x48760529db8641a7:0x8895c9a52c2079ab!4m6!3m5!1s0x48761b2adeb577f5:0x9f57e4d2d86b33fc!8m2!3d51.5161381!4d-0.1384085!16s%2Fg%2F11ckng6mkw?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2 hover:text-white transition-colors"
+                className="flex items-center space-x-2 hover:text-[hsl(var(--perse-dark-grey))] transition-colors"
               >
                 <span>📍</span>
                 <span>Our Location</span>
@@ -54,7 +55,7 @@ export const Footer = ({ variant = 'default' }: FooterProps) => {
 
           {/* Center - ISO27001 Certificate */}
           <div className="flex flex-col items-center lg:items-start space-y-2">
-            <h3 className="text-lg font-semibold text-white">ISO27001</h3>
+            <h3 className="text-lg font-semibold text-[hsl(var(--perse-dark-grey))]">ISO27001</h3>
             <img 
               src="/lovable-uploads/f1b3a1be-88c2-4a68-9806-4a065193229a.png" 
               alt="ISO27001 Certificate"
@@ -64,22 +65,22 @@ export const Footer = ({ variant = 'default' }: FooterProps) => {
           </div>
 
           {/* Right side - Legal Links */}
-          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-sm" style={{color: '#90C7CF'}}>
+          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-sm text-[hsl(var(--perse-turquoise))]">
             <a 
               href="/terms" 
-              className="hover:text-white transition-colors"
+              className="hover:text-[hsl(var(--perse-dark-grey))] transition-colors"
             >
               Terms and Conditions
             </a>
             <a 
               href="/sustainability" 
-              className="hover:text-white transition-colors"
+              className="hover:text-[hsl(var(--perse-dark-grey))] transition-colors"
             >
               Sustainability Policy
             </a>
             <a 
               href="/privacy" 
-              className="hover:text-white transition-colors"
+              className="hover:text-[hsl(var(--perse-dark-grey))] transition-colors"
             >
               Privacy Policy
             </a>
