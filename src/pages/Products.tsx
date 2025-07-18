@@ -102,9 +102,9 @@ const Products = () => {
               >
                 <div className="flex items-center justify-center mb-6">
                   <img 
-                    src="/lovable-uploads/e9715b5a-9146-45c9-a960-839fc6cbbb48.png" 
+                    src="/lovable-uploads/21780c69-56da-4c42-a6f0-00de11a90422.png" 
                     alt="APIs" 
-                    className="w-16 h-16"
+                    className="w-16 h-16 object-contain"
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-text-primary mb-4 text-center">APIs</h3>
@@ -139,9 +139,9 @@ const Products = () => {
               >
                 <div className="flex items-center justify-center mb-6">
                   <img 
-                    src="/lovable-uploads/d20bc536-9840-4a7b-aef6-326b20807ea7.png" 
+                    src="/lovable-uploads/a995adf5-5934-4d9c-b899-65245ec42f12.png" 
                     alt="Appstore" 
-                    className="w-16 h-16"
+                    className="w-16 h-16 object-contain"
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-text-primary mb-4 text-center">Appstore</h3>
