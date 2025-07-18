@@ -4,11 +4,12 @@ interface FooterProps {
 }
 
 export const Footer = ({ variant = 'default' }: FooterProps) => {
-  const bgColor = variant === 'light' ? 'bg-[hsl(var(--perse-light-pink))]' : 'bg-[hsl(var(--perse-dark-grey))]';
+  const bgColor = variant === 'light' ? 'bg-white' : 'bg-[hsl(var(--perse-dark-grey))]';
   const textColor = variant === 'light' ? 'text-[hsl(var(--perse-dark-grey))]' : 'text-background';
+  const fontWeight = variant === 'light' ? 'font-bold' : '';
   
   return (
-    <footer className={`${bgColor} ${textColor} py-8`}>
+    <footer className={`${bgColor} ${textColor} ${fontWeight} py-8`}>
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row justify-between items-start space-y-6 lg:space-y-0 lg:space-x-8">
           {/* Left side - Logo and Contact Info */}
