@@ -126,9 +126,9 @@ const Sectors = () => {
           <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             
             {/* Energy Sector */}
-            <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl" style={{background: 'linear-gradient(to bottom right, #5A5A5A, #5A5A5A)'}}>
+            <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl" style={{background: `hsl(var(--perse-dark-grey))`}}>
               <div className="bg-white rounded-xl p-8 h-full">
-                <div className="flex items-center justify-center w-16 h-16 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: 'linear-gradient(to bottom right, #5A5A5A, #5A5A5A)'}}>
+                <div className="flex items-center justify-center w-16 h-16 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: `hsl(var(--perse-dark-grey))`}}>
                   <Zap className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">Energy</h3>
@@ -140,7 +140,7 @@ const Sectors = () => {
                   <h4 className="font-semibold text-gray-900 mb-3">Key features:</h4>
                   {["Energy procurement", "Commission reconciliation", "Bill validation", "Analysis and recommendations for pass through costs", "Demand flexibility"].map((useCase, index) => (
                     <div key={index} className="flex items-start gap-3">
-                      <CheckCircle className="h-5 w-5 mt-0.5 shrink-0" style={{color: '#5A5A5A'}} />
+                      <CheckCircle className="h-5 w-5 mt-0.5 shrink-0" style={{color: `hsl(var(--perse-dark-grey))`}} />
                       <span className="text-sm text-gray-700 font-medium">{useCase}</span>
                     </div>
                   ))}
@@ -149,9 +149,9 @@ const Sectors = () => {
             </div>
 
             {/* Property Sector */}
-            <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl" style={{background: 'linear-gradient(to bottom right, #90C7CF, #90C7CF)'}}>
+            <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl" style={{background: `hsl(var(--perse-turquoise))`}}>
               <div className="bg-white rounded-xl p-8 h-full">
-                <div className="flex items-center justify-center w-16 h-16 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: 'linear-gradient(to bottom right, #90C7CF, #90C7CF)'}}>
+                <div className="flex items-center justify-center w-16 h-16 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: `hsl(var(--perse-turquoise))`}}>
                   <Building className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">Property</h3>
@@ -163,7 +163,7 @@ const Sectors = () => {
                   <h4 className="font-semibold text-gray-900 mb-3">Key features:</h4>
                   {["Carbon reporting: location and market based", "Landlord access to data without tenant consent", "GRESB partner", "Identification of measures to reduce carbon", "Portfolio management", "Reconciliation and reporting of outcomes", "Pre-integration with ESG software platforms"].map((useCase, index) => (
                     <div key={index} className="flex items-start gap-3">
-                      <CheckCircle className="h-5 w-5 mt-0.5 shrink-0" style={{color: '#90C7CF'}} />
+                      <CheckCircle className="h-5 w-5 mt-0.5 shrink-0" style={{color: `hsl(var(--perse-turquoise))`}} />
                       <span className="text-sm text-gray-700 font-medium">{useCase}</span>
                     </div>
                   ))}
@@ -172,10 +172,10 @@ const Sectors = () => {
             </div>
 
             {/* Finance Sector */}
-            <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl" style={{background: 'linear-gradient(to bottom right, #E5EAEE, #E5EAEE)'}}>
+            <div className="group relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl" style={{background: `hsl(var(--perse-light-blue-grey))`}}>
               <div className="bg-white rounded-xl p-8 h-full">
-                <div className="flex items-center justify-center w-16 h-16 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: 'linear-gradient(to bottom right, #E5EAEE, #E5EAEE)'}}>
-                  <CreditCard className="h-8 w-8 text-white" />
+                <div className="flex items-center justify-center w-16 h-16 rounded-xl mb-6 mx-auto group-hover:rotate-6 transition-transform duration-300" style={{background: `hsl(var(--perse-light-blue-grey))`}}>
+                  <CreditCard className="h-8 w-8 text-[hsl(var(--perse-dark-grey))]" />
                 </div>
                 <h3 className="text-2xl font-bold text-center text-gray-900 mb-4">Finance</h3>
                 <p className="text-gray-600 text-center mb-8 leading-relaxed">
@@ -186,7 +186,7 @@ const Sectors = () => {
                   <h4 className="font-semibold text-gray-900 mb-3">Key features:</h4>
                   {["Carbon reporting: location and market based", "Portfolio and individual property assessment", "Customer engagement tools", "Perseus partner", "Reconciliation and reporting of outcomes"].map((useCase, index) => (
                     <div key={index} className="flex items-start gap-3">
-                      <CheckCircle className="h-5 w-5 mt-0.5 shrink-0" style={{color: '#E5EAEE'}} />
+                      <CheckCircle className="h-5 w-5 mt-0.5 shrink-0" style={{color: `hsl(var(--perse-light-blue-grey))`}} />
                       <span className="text-sm text-gray-700 font-medium">{useCase}</span>
                     </div>
                   ))}
