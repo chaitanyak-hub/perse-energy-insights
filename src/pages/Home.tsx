@@ -74,9 +74,11 @@ const Home = () => {
               <div className="text-center">
                 <div className="mb-6">
                   <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
-                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
-                      API Interface Placeholder
-                    </div>
+                    <img 
+                      src="/lovable-uploads/ea784e2e-142b-4070-b992-c461f6227059.png" 
+                      alt="API Interface" 
+                      className="w-full rounded aspect-video object-cover"
+                    />
                   </div>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">APIs</h3>
@@ -89,9 +91,11 @@ const Home = () => {
               <div className="text-center">
                 <div className="mb-6">
                   <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
-                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
-                      Appstore Interface Placeholder
-                    </div>
+                    <img 
+                      src="/lovable-uploads/9d1cc8ee-78e9-4cc8-a9c4-1679b352907e.png" 
+                      alt="Appstore Interface" 
+                      className="w-full rounded aspect-video object-cover"
+                    />
                   </div>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">Appstore</h3>
@@ -104,9 +108,11 @@ const Home = () => {
               <div className="text-center">
                 <div className="mb-6">
                   <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
-                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
-                      Optimise Interface Placeholder
-                    </div>
+                    <img 
+                      src="/lovable-uploads/0db69f2d-f164-434e-be09-2c833351b28b.png" 
+                      alt="Optimise Interface" 
+                      className="w-full rounded aspect-video object-cover"
+                    />
                   </div>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">Optimise</h3>
@@ -119,9 +125,11 @@ const Home = () => {
               <div className="text-center">
                 <div className="mb-6">
                   <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
-                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
-                      Energy Procurement Placeholder
-                    </div>
+                    <img 
+                      src="/lovable-uploads/4ce5669a-1bb6-472e-bc43-b23ab2249e88.png" 
+                      alt="Energy Procurement Interface" 
+                      className="w-full rounded aspect-video object-cover"
+                    />
                   </div>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">Energy procurement</h3>
@@ -134,9 +142,11 @@ const Home = () => {
               <div className="text-center">
                 <div className="mb-6">
                   <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
-                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
-                      Demand Flexibility Placeholder
-                    </div>
+                    <img 
+                      src="/lovable-uploads/ff93fc1d-d304-4345-b5af-b4d46a8e408d.png" 
+                      alt="Demand Flexibility Interface" 
+                      className="w-full rounded aspect-video object-cover"
+                    />
                   </div>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">Demand flexibility</h3>
@@ -149,9 +159,11 @@ const Home = () => {
               <div className="text-center">
                 <div className="mb-6">
                   <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
-                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
-                      ConsentWallet Placeholder
-                    </div>
+                    <img 
+                      src="/lovable-uploads/dcafb378-3409-417c-927d-616b2bf99351.png" 
+                      alt="ConsentWallet Interface" 
+                      className="w-full rounded aspect-video object-cover"
+                    />
                   </div>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">ConsentWallet</h3>
