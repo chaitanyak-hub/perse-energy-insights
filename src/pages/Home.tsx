@@ -60,6 +60,110 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Products Section */}
+      <section className="py-12 sm:py-16 lg:py-20 bg-background">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[hsl(var(--perse-dark-grey))] leading-tight mb-4 sm:mb-6 text-center">
+              Market leading data and <span className="text-[hsl(var(--perse-pale-orange))]">solutions</span> powering the path to net zero in energy, real estate and finance
+            </h2>
+            
+            {/* Products Grid */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 mt-12">
+              {/* APIs */}
+              <div className="text-center">
+                <div className="mb-6">
+                  <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
+                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
+                      API Interface Placeholder
+                    </div>
+                  </div>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">APIs</h3>
+                <p className="text-base text-gray-600">
+                  Raw data or analysis to plugin to your system or third party software provider
+                </p>
+              </div>
+
+              {/* Appstore */}
+              <div className="text-center">
+                <div className="mb-6">
+                  <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
+                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
+                      Appstore Interface Placeholder
+                    </div>
+                  </div>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">Appstore</h3>
+                <p className="text-base text-gray-600">
+                  A user interface to access data otherwise only available via API
+                </p>
+              </div>
+
+              {/* Optimise */}
+              <div className="text-center">
+                <div className="mb-6">
+                  <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
+                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
+                      Optimise Interface Placeholder
+                    </div>
+                  </div>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">Optimise</h3>
+                <p className="text-base text-gray-600">
+                  Instantly personalised low carbon recommendations, including solar PV and heat pumps, without the need for a site visit
+                </p>
+              </div>
+
+              {/* Energy procurement */}
+              <div className="text-center">
+                <div className="mb-6">
+                  <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
+                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
+                      Energy Procurement Placeholder
+                    </div>
+                  </div>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">Energy procurement</h3>
+                <p className="text-base text-gray-600">
+                  Tariff comparison and switching for homes and businesses of all sizes
+                </p>
+              </div>
+
+              {/* Demand flexibility */}
+              <div className="text-center">
+                <div className="mb-6">
+                  <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
+                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
+                      Demand Flexibility Placeholder
+                    </div>
+                  </div>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">Demand flexibility</h3>
+                <p className="text-base text-gray-600">
+                  Homes and businesses can be paid to consume energy at different times of the day
+                </p>
+              </div>
+
+              {/* ConsentWallet */}
+              <div className="text-center">
+                <div className="mb-6">
+                  <div className="bg-black rounded-lg p-4 mx-auto max-w-sm">
+                    <div className="bg-white rounded aspect-video flex items-center justify-center text-gray-400 text-sm">
+                      ConsentWallet Placeholder
+                    </div>
+                  </div>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-[hsl(var(--perse-dark-grey))] mb-3">ConsentWallet</h3>
+                <p className="text-base text-gray-600">
+                  Enables occupants, bill payers or landlords to choose how they receive and share their data
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
