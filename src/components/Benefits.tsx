@@ -6,22 +6,22 @@ export const Benefits = () => {
     {
       icon: CheckCircle,
       title: "Enhanced Data Accuracy",
-      description: "Automated metre readings and industry-standard estimation methods ensure precise consumption data, eliminating human error."
+      description: "Automated meter readings and industry-standard estimation methods to optimise accuracy and transparency."
     },
     {
       icon: BarChart3,
       title: "Comprehensive Data Access",
-      description: "Access smart metre data, historical reports, and detailed insights all in one centralised platform."
+      description: "Access smart meter data, historical reports, and detailed insights all in one centralised platform."
     },
     {
       icon: Users,
       title: "Simplified Portfolio Management",
-      description: "Manage multiple metres and consolidate energy data into a single portfolio for better tracking and analysis."
+      description: "Manage multiple meters and consolidate energy data into a single portfolio for better tracking and analysis."
     },
     {
       icon: TrendingUp,
       title: "Improved Decision-Making",
-      description: "Granular consumption data helps identify inefficiencies and optimise energy use for better business outcomes."
+      description: "Granular consumption data helps identify inefficiencies and optimise energy use for better outcomes."
     },
     {
       icon: Shield,
