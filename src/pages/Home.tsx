@@ -20,8 +20,8 @@ const Home = () => {
               </div>
               
               {/* Right side - Stats */}
-              <div className="bg-[hsl(var(--perse-dark-grey))] rounded-xl p-8">
-                <div className="grid grid-cols-2 gap-6">
+              <div className="bg-[hsl(var(--perse-dark-grey))] rounded-xl p-4 sm:p-6 lg:p-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                   <StatItem number="10000000" label="Tonnes of carbon processed" isAnimated={true} isDark={true} />
                   <StatItem number="£65000000" label="Savings identified" isAnimated={true} isDark={true} />
                 </div>

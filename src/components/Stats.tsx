@@ -11,12 +11,12 @@ export const StatItem = ({ number, label, isAnimated = false, isDark = false }: 
   const labelColor = isDark ? "text-white/70" : "text-text-primary/70";
   
   if (!isAnimated) {
-    return (
-      <div className="text-center">
-        <div className={`text-4xl font-bold ${textColor} mb-2`}>{number}</div>
-        <div className={labelColor}>{label}</div>
-      </div>
-    );
+  return (
+    <div className="text-center">
+      <div className={`text-2xl sm:text-3xl lg:text-4xl font-bold ${textColor} mb-1 sm:mb-2`}>{number}</div>
+      <div className={`text-xs sm:text-sm lg:text-base ${labelColor}`}>{label}</div>
+    </div>
+  );
   }
 
   const numericValue = parseInt(number.replace(/[^\d]/g, ''));
@@ -34,10 +34,10 @@ export const StatItem = ({ number, label, isAnimated = false, isDark = false }: 
 
   return (
     <div ref={elementRef} className="text-center">
-      <div className={`text-4xl font-bold ${textColor} mb-2`}>
+      <div className={`text-2xl sm:text-3xl lg:text-4xl font-bold ${textColor} mb-1 sm:mb-2`}>
         {number.startsWith('£') ? `£${formatNumber(count)}` : formatNumber(count)}
       </div>
-      <div className={labelColor}>{label}</div>
+      <div className={`text-xs sm:text-sm lg:text-base ${labelColor}`}>{label}</div>
     </div>
   );
 };
