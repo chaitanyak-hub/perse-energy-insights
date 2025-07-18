@@ -177,7 +177,7 @@ const Home = () => {
       </section>
 
       {/* Customers and Partners Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-[hsl(var(--perse-pale-orange))]">
+      <section className="py-12 sm:py-16 lg:py-20">
         <div className="w-full">
           <div className="text-center">
             <div className="mb-8">
@@ -187,14 +187,12 @@ const Home = () => {
                 className="w-full"
               />
             </div>
-            
-            <p className="text-white text-lg">Some of our customers and partners</p>
           </div>
         </div>
       </section>
 
       {/* Recognition and Support Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-[hsl(var(--perse-dark-grey))]">
+      <section className="py-12 sm:py-16 lg:py-20">
         <div className="w-full">
           <div className="text-center">
             <div className="mb-8">
@@ -204,8 +202,6 @@ const Home = () => {
                 className="w-full"
               />
             </div>
-            
-            <p className="text-white text-lg">Recognised by and supporting</p>
           </div>
         </div>
       </section>
