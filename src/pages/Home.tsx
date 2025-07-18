@@ -39,20 +39,20 @@ const Home = () => {
             <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
               {/* Left side - Text */}
               <div>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-text-primary leading-tight mb-4 sm:mb-6">
-                  Market leading <span className="text-primary">data</span> and solutions powering the path to net zero in energy, real estate and finance
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[hsl(var(--perse-dark-grey))] leading-tight mb-4 sm:mb-6">
+                  Market leading <span className="text-[hsl(var(--perse-pale-orange))]">data</span> and solutions powering the path to net zero in energy, real estate and finance
                 </h2>
-                <p className="text-base sm:text-lg text-primary font-medium">
+                <p className="text-base sm:text-lg text-[hsl(var(--perse-pale-orange))] font-medium">
                   gas, electricity, location and market based carbon, pricing, building fabric, EPC, weather, satellite, grid
                 </p>
               </div>
               
-              {/* Right side - Cube Icon */}
+              {/* Right side - Database Animation */}
               <div className="flex justify-center">
                 <img 
-                  src="/lovable-uploads/504393bb-9691-457f-ad92-2469dcae1acb.png" 
-                  alt="Data solutions cube icon" 
-                  className="w-48 sm:w-56 lg:w-64 h-auto"
+                  src={databaseAnimation} 
+                  alt="Database processing animation" 
+                  className="w-full max-w-md lg:max-w-lg h-auto"
                 />
               </div>
             </div>
