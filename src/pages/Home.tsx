@@ -178,17 +178,13 @@ const Home = () => {
 
       {/* Customers and Partners Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-[hsl(var(--perse-pale-orange))]">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-12">
-              Market leading data and solutions powering the path to net zero in energy, real estate and finance
-            </h2>
-            
+        <div className="w-full">
+          <div className="text-center">
             <div className="mb-8">
               <img 
                 src="/lovable-uploads/53cae4c8-f1fb-4c9f-bcaa-26cefb2372a7.png" 
                 alt="Customer and partner logos: IB1, EDF, GRESB, Compare the Market, Harworth, NESO" 
-                className="w-full max-w-4xl mx-auto"
+                className="w-full"
               />
             </div>
             
@@ -199,17 +195,13 @@ const Home = () => {
 
       {/* Recognition and Support Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-[hsl(var(--perse-dark-grey))]">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
-              Market leading <span className="text-[hsl(var(--perse-pale-orange))]">data</span> and solutions powering the path to net zero in energy, real estate and finance
-            </h2>
-            
-            <div className="mb-8 mt-12">
+        <div className="w-full">
+          <div className="text-center">
+            <div className="mb-8">
               <img 
                 src="/lovable-uploads/6f74b099-3cdc-4b35-919e-660215b3ecf5.png" 
                 alt="Recognition and support logos: Google, Energy Transition, UN Global Compact, REA, BE100" 
-                className="w-full max-w-4xl mx-auto"
+                className="w-full"
               />
             </div>
             
