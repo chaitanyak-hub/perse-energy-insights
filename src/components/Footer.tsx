@@ -1,7 +1,7 @@
 
 export const Footer = () => {
   return (
-    <footer className="bg-foreground text-background py-8">
+    <footer className="bg-[hsl(var(--perse-dark-grey))] text-background py-8">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row justify-between items-start space-y-6 lg:space-y-0 lg:space-x-8">
           {/* Left side - Logo and Contact Info */}
@@ -50,10 +50,10 @@ export const Footer = () => {
           <div className="flex flex-col items-center lg:items-start space-y-2">
             <h3 className="text-lg font-semibold text-white">ISO27001</h3>
             <img 
-              src="/lovable-uploads/cfc215c8-6524-43c6-8bac-b41f60278892.png" 
+              src="/lovable-uploads/f1b3a1be-88c2-4a68-9806-4a065193229a.png" 
               alt="ISO27001 Certificate"
               className="h-24 w-auto cursor-pointer hover:opacity-80 transition-opacity"
-              onClick={() => window.open('/lovable-uploads/cfc215c8-6524-43c6-8bac-b41f60278892.png', '_blank')}
+              onClick={() => window.open('/lovable-uploads/f1b3a1be-88c2-4a68-9806-4a065193229a.png', '_blank')}
             />
           </div>
 
